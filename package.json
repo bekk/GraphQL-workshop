@@ -1,0 +1,28 @@
+{
+  "name": "graphql-workshop",
+  "version": "1.0.0",
+  "description": "GraphQL-workshop for Bekks React-faggruppe",
+  "main": "GraphqlServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bekk/GraphQL-workshop.git"
+  },
+  "keywords": [
+    "GraphQL",
+    "React"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bekk/GraphQL-workshop/issues"
+  },
+  "homepage": "https://github.com/bekk/GraphQL-workshop#readme",
+  "dependencies": {
+    "apollo-server": "^2.4.2",
+    "apollo-server-express": "^2.4.2",
+    "graphql": "^14.1.1"
+  }
+}
