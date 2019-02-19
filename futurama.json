@@ -10,2654 +10,313 @@
     "Science-Fiction"
   ],
   "status": "Ended",
-  "runtime": 30,
   "premiered": "1999-03-28",
   "officialSite": "http://www.cc.com/shows/futurama",
-  "schedule": {
-    "time": "22:00",
-    "days": [
-      "Wednesday"
-    ]
-  },
-  "rating": {
-    "average": 9.1
-  },
-  "weight": 82,
-  "network": {
-    "id": 23,
-    "name": "Comedy Central",
-    "country": {
-      "name": "United States",
-      "code": "US",
-      "timezone": "America/New_York"
-    }
-  },
-  "webChannel": null,
-  "externals": {
-    "tvrage": 3628,
-    "thetvdb": 73871,
-    "imdb": "tt0149460"
-  },
   "image": {
     "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/4/11403.jpg",
     "original": "http://static.tvmaze.com/uploads/images/original_untouched/4/11403.jpg"
   },
   "summary": "<p><b>Futurama</b> follows pizza guy Philip J. Fry, who reawakens in 31st century New New York after a cryonics lab accident. Now part of the Planet Express delivery crew, Fry travels to the farthest reaches of the universe with his robot buddy Bender and cyclopsian love interest Leela, discovering freaky mutants, intergalactic conspiracies and other strange stuff.</p>",
-  "updated": 1549056327,
-  "_links": {
-    "self": {
-      "href": "http://api.tvmaze.com/shows/538"
+  "episodes": [
+    {
+      "id": 49288,
+      "url": "http://www.tvmaze.com/episodes/49288/futurama-1x01-space-pilot-3000",
+      "name": "Space Pilot 3000",
+      "season": 1,
+      "number": 1,
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/143950.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/143950.jpg"
+      },
+      "summary": "<p>A delivery boy frozen in the year 1999 awakens in the year 3000. Phillip J. Fry delivers a pizza to a Cryogenics lab on New Years eve, only to discover that it is a prank delivery and then accidentally falls into a open cryogenics chamber, is put to sleep and wakes up in the far future.</p>"
     },
-    "previousepisode": {
-      "href": "http://api.tvmaze.com/episodes/49411"
+    {
+      "id": 49289,
+      "url": "http://www.tvmaze.com/episodes/49289/futurama-1x02-the-series-has-landed",
+      "name": "The Series Has Landed",
+      "season": 1,
+      "number": 2,
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/143951.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/143951.jpg"
+      },
+      "summary": "<p>The crew takes a mission to an amusement park on the moon.</p>"
+    },
+    {
+      "id": 49290,
+      "url": "http://www.tvmaze.com/episodes/49290/futurama-1x03-i-roommate",
+      "name": "I, Roommate",
+      "season": 1,
+      "number": 3,
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/143952.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/143952.jpg"
+      },
+      "summary": "<p>Bender offers to let Fry move in with him when Fry is forced to move out of the Planet Express because of his slob style of living.</p>"
+    },
+    {
+      "id": 49291,
+      "url": "http://www.tvmaze.com/episodes/49291/futurama-1x04-loves-labors-lost-in-space",
+      "name": "Love's Labors Lost in Space",
+      "season": 1,
+      "number": 4,
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/143953.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/143953.jpg"
+      },
+      "summary": "<p>The crew encounters infamous space captain Zapp Brannigan.</p>"
+    },
+    {
+      "id": 49292,
+      "url": "http://www.tvmaze.com/episodes/49292/futurama-1x05-fear-of-a-bot-planet",
+      "name": "Fear of a Bot Planet",
+      "season": 1,
+      "number": 5,
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144085.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144085.jpg"
+      },
+      "summary": "<p>The crew makes a delivery to a planet of human-hating robots.</p>"
+    },
+    {
+      "id": 49297,
+      "url": "http://www.tvmaze.com/episodes/49297/futurama-2x01-a-flight-to-remember",
+      "name": "A Flight to Remember",
+      "season": 2,
+      "number": 1,
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144091.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144091.jpg"
+      },
+      "summary": "<p>The crew takes a vacation on the maiden voyage of the spaceship Titanic.</p>"
+    },
+    {
+      "id": 49298,
+      "url": "http://www.tvmaze.com/episodes/49298/futurama-2x02-mars-university",
+      "name": "Mars University",
+      "season": 2,
+      "number": 2,
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144092.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144092.jpg"
+      },
+      "summary": "<p>The Professor introduces the crew to his newest experiment at Mars University.</p>"
+    },
+    {
+      "id": 49299,
+      "url": "http://www.tvmaze.com/episodes/49299/futurama-2x03-when-aliens-attack",
+      "name": "When Aliens Attack",
+      "season": 2,
+      "number": 3,
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144093.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144093.jpg"
+      },
+      "summary": "<p>Aliens invade Earth in search of a TV star from 1999. Title sequence tagline \"Proudly Made On Earth\".</p>"
+    },
+    {
+      "id": 49300,
+      "url": "http://www.tvmaze.com/episodes/49300/futurama-2x04-fry-the-slurm-factory",
+      "name": "Fry & the Slurm Factory",
+      "season": 2,
+      "number": 4,
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144094.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144094.jpg"
+      },
+      "summary": "<p>Fry wins a trip to the Slurm Factory and discovers the secret behind the addictive soda. Title sequence tagline \"Live from Omicron Persei 8\".</p>"
+    },
+    {
+      "id": 49301,
+      "url": "http://www.tvmaze.com/episodes/49301/futurama-2x05-i-second-that-emotion",
+      "name": "I Second That Emotion",
+      "season": 2,
+      "number": 5,
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144095.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144095.jpg"
+      },
+      "summary": "<p>Leela, Fry and Bender search the mutant-filled sewers for Nibbler. Title sequence tagline \"Made From Meat By-Products\".</p>"
+    },
+    {
+      "id": 49317,
+      "url": "http://www.tvmaze.com/episodes/49317/futurama-3x01-the-honking",
+      "name": "The Honking",
+      "season": 3,
+      "number": 1,
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144110.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144110.jpg"
+      },
+      "summary": "<p>The Professor creates a What-If machine that answers every question.</p>"
+    },
+    {
+      "id": 49318,
+      "url": "http://www.tvmaze.com/episodes/49318/futurama-3x02-war-is-the-h-word",
+      "name": "War Is the H-Word",
+      "season": 3,
+      "number": 2,
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144111.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144111.jpg"
+      },
+      "summary": "<p>When Bender and Fry volunteer for military duty, Leela also joins the all-male ranks, as Lee Lemon.</p>"
+    },
+    {
+      "id": 49319,
+      "url": "http://www.tvmaze.com/episodes/49319/futurama-3x03-the-cryonic-woman",
+      "name": "The Cryonic Woman",
+      "season": 3,
+      "number": 3,
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144112.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144112.jpg"
+      },
+      "summary": "<p>Fry is reunited with his girlfriend from the 20th century.</p>"
+    },
+    {
+      "id": 49320,
+      "url": "http://www.tvmaze.com/episodes/49320/futurama-3x04-parasites-lost",
+      "name": "Parasites Lost",
+      "season": 3,
+      "number": 4,
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144113.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144113.jpg"
+      },
+      "summary": "<p>The crew takes a trip inside Fry's body to save him from parasitic worms.</p>"
+    },
+    {
+      "id": 49321,
+      "url": "http://www.tvmaze.com/episodes/49321/futurama-3x05-amazon-women-in-the-mood",
+      "name": "Amazon Women in the Mood",
+      "season": 3,
+      "number": 5,
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144114.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144114.jpg"
+      },
+      "summary": "<p>The crew gets stranded on a planet of Amazonian women.</p>"
+    },
+    {
+      "id": 49332,
+      "url": "http://www.tvmaze.com/episodes/49332/futurama-4x01-roswell-that-ends-well",
+      "name": "Roswell That Ends Well",
+      "season": 4,
+      "number": 1,
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144124.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144124.jpg"
+      },
+      "summary": "<p>Fry must make sure his grandfather survives in Roswell, NM, or he himself will cease to exist.</p>"
+    },
+    {
+      "id": 49333,
+      "url": "http://www.tvmaze.com/episodes/49333/futurama-4x02-a-tale-of-two-santas",
+      "name": "A Tale of Two Santas",
+      "season": 4,
+      "number": 2,
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144125.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144125.jpg"
+      },
+      "summary": "<p>Bender takes over as Santa Claus to bring back Xmas spirit.</p>"
+    },
+    {
+      "id": 49334,
+      "url": "http://www.tvmaze.com/episodes/49334/futurama-4x03-anthology-of-interest-2",
+      "name": "Anthology of Interest (2)",
+      "season": 4,
+      "number": 3,
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144126.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144126.jpg"
+      },
+      "summary": "<p>The What-If machine projects a human Bender, the world as a video game and Leela in her real home. Title sequence tagline 'Hey TiVo! Suggest this!'.</p>"
+    },
+    {
+      "id": 49335,
+      "url": "http://www.tvmaze.com/episodes/49335/futurama-4x04-love-and-rocket",
+      "name": "Love and Rocket",
+      "season": 4,
+      "number": 4,
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144127.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144127.jpg"
+      },
+      "summary": "<p>Bender and the Planet Express ship fall in love resulting in a mishap adventure when Bender jilts her. Title sequence tagline 'When you see the robot, drink!'.</p>"
+    },
+    {
+      "id": 49336,
+      "url": "http://www.tvmaze.com/episodes/49336/futurama-4x05-leelas-homeworld",
+      "name": "Leela's Homeworld",
+      "season": 4,
+      "number": 5,
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144128.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144128.jpg"
+      },
+      "summary": "<p>Leela learns the truth about her parents and her identity when Bender angers a group of people with his toxic waste dumping. Title sequence tagline 'It's llike \"Hee Haw\" with lasers'.</p>"
+    },
+    {
+      "id": 49344,
+      "url": "http://www.tvmaze.com/episodes/49344/futurama-5x01-crimes-of-the-hot",
+      "name": "Crimes of the Hot",
+      "season": 5,
+      "number": 1,
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144145.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144145.jpg"
+      },
+      "summary": "<p>Earth's robots are sentenced to death when they are identified as the cause of global warming.</p>"
+    },
+    {
+      "id": 49345,
+      "url": "http://www.tvmaze.com/episodes/49345/futurama-5x02-jurassic-bark",
+      "name": "Jurassic Bark",
+      "season": 5,
+      "number": 2,
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144147.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144147.jpg"
+      },
+      "summary": "<p>Fry finds his fossilized dog in a museum exhibit and attempts to bring it back to life with cloning.</p>"
+    },
+    {
+      "id": 49346,
+      "url": "http://www.tvmaze.com/episodes/49346/futurama-5x03-the-route-of-all-evil",
+      "name": "The Route of All Evil",
+      "season": 5,
+      "number": 3,
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144148.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144148.jpg"
+      },
+      "summary": "<p>Cubert and Dwight's new delivery company drives Planet Express out of business.</p><p></p>"
+    },
+    {
+      "id": 49347,
+      "url": "http://www.tvmaze.com/episodes/49347/futurama-5x04-a-taste-of-freedom",
+      "name": "A Taste of Freedom",
+      "season": 5,
+      "number": 4,
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144149.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144149.jpg"
+      },
+      "summary": "<p>Zoidberg is sentenced to death for eating Earth's flag on Freedom Day.</p>"
+    },
+    {
+      "id": 49348,
+      "url": "http://www.tvmaze.com/episodes/49348/futurama-5x05-kif-gets-knocked-up-a-notch",
+      "name": "Kif Gets Knocked Up a Notch",
+      "season": 5,
+      "number": 5,
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144150.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144150.jpg"
+      },
+      "summary": "<p>Amy's romance with Kif takes an unexpected twist when he becomes pregnant.</p>"
     }
-  },
-  "_embedded": {
-    "episodes": [
-      {
-        "id": 49288,
-        "url": "http://www.tvmaze.com/episodes/49288/futurama-1x01-space-pilot-3000",
-        "name": "Space Pilot 3000",
-        "season": 1,
-        "number": 1,
-        "airdate": "1999-03-28",
-        "airtime": "22:00",
-        "airstamp": "1999-03-29T03:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/143950.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/143950.jpg"
-        },
-        "summary": "<p>A delivery boy frozen in the year 1999 awakens in the year 3000. Phillip J. Fry delivers a pizza to a Cryogenics lab on New Years eve, only to discover that it is a prank delivery and then accidentally falls into a open cryogenics chamber, is put to sleep and wakes up in the far future.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49288"
-          }
-        }
-      },
-      {
-        "id": 49289,
-        "url": "http://www.tvmaze.com/episodes/49289/futurama-1x02-the-series-has-landed",
-        "name": "The Series Has Landed",
-        "season": 1,
-        "number": 2,
-        "airdate": "1999-04-04",
-        "airtime": "22:00",
-        "airstamp": "1999-04-05T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/143951.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/143951.jpg"
-        },
-        "summary": "<p>The crew takes a mission to an amusement park on the moon.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49289"
-          }
-        }
-      },
-      {
-        "id": 49290,
-        "url": "http://www.tvmaze.com/episodes/49290/futurama-1x03-i-roommate",
-        "name": "I, Roommate",
-        "season": 1,
-        "number": 3,
-        "airdate": "1999-04-06",
-        "airtime": "22:00",
-        "airstamp": "1999-04-07T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/143952.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/143952.jpg"
-        },
-        "summary": "<p>Bender offers to let Fry move in with him when Fry is forced to move out of the Planet Express because of his slob style of living.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49290"
-          }
-        }
-      },
-      {
-        "id": 49291,
-        "url": "http://www.tvmaze.com/episodes/49291/futurama-1x04-loves-labors-lost-in-space",
-        "name": "Love's Labors Lost in Space",
-        "season": 1,
-        "number": 4,
-        "airdate": "1999-04-13",
-        "airtime": "22:00",
-        "airstamp": "1999-04-14T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/143953.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/143953.jpg"
-        },
-        "summary": "<p>The crew encounters infamous space captain Zapp Brannigan.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49291"
-          }
-        }
-      },
-      {
-        "id": 49292,
-        "url": "http://www.tvmaze.com/episodes/49292/futurama-1x05-fear-of-a-bot-planet",
-        "name": "Fear of a Bot Planet",
-        "season": 1,
-        "number": 5,
-        "airdate": "1999-04-20",
-        "airtime": "22:00",
-        "airstamp": "1999-04-21T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144085.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144085.jpg"
-        },
-        "summary": "<p>The crew makes a delivery to a planet of human-hating robots.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49292"
-          }
-        }
-      },
-      {
-        "id": 49293,
-        "url": "http://www.tvmaze.com/episodes/49293/futurama-1x06-a-fishful-of-dollars",
-        "name": "A Fishful of Dollars",
-        "season": 1,
-        "number": 6,
-        "airdate": "1999-04-27",
-        "airtime": "22:00",
-        "airstamp": "1999-04-28T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144087.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144087.jpg"
-        },
-        "summary": "<p>Fry becomes a billionaire and buys the world's last can of anchovies.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49293"
-          }
-        }
-      },
-      {
-        "id": 49294,
-        "url": "http://www.tvmaze.com/episodes/49294/futurama-1x07-my-three-suns",
-        "name": "My Three Suns",
-        "season": 1,
-        "number": 7,
-        "airdate": "1999-05-04",
-        "airtime": "22:00",
-        "airstamp": "1999-05-05T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144088.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144088.jpg"
-        },
-        "summary": "<p>Fry accidentally swallows another planet's emperor and gains his title.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49294"
-          }
-        }
-      },
-      {
-        "id": 49295,
-        "url": "http://www.tvmaze.com/episodes/49295/futurama-1x08-a-big-piece-of-garbage",
-        "name": "A Big Piece of Garbage",
-        "season": 1,
-        "number": 8,
-        "airdate": "1999-05-11",
-        "airtime": "22:00",
-        "airstamp": "1999-05-12T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144089.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144089.jpg"
-        },
-        "summary": "<p>A giant garbage ball from space threatens to destroy New New York.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49295"
-          }
-        }
-      },
-      {
-        "id": 49296,
-        "url": "http://www.tvmaze.com/episodes/49296/futurama-1x09-hell-is-other-robots",
-        "name": "Hell Is Other Robots",
-        "season": 1,
-        "number": 9,
-        "airdate": "1999-05-18",
-        "airtime": "22:00",
-        "airstamp": "1999-05-19T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144090.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144090.jpg"
-        },
-        "summary": "<p>Bender is sent to Robot Hell for all of his sins. Title tagline \"Condemned By The Space Pope\".</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49296"
-          }
-        }
-      },
-      {
-        "id": 49297,
-        "url": "http://www.tvmaze.com/episodes/49297/futurama-2x01-a-flight-to-remember",
-        "name": "A Flight to Remember",
-        "season": 2,
-        "number": 1,
-        "airdate": "1999-09-26",
-        "airtime": "22:00",
-        "airstamp": "1999-09-27T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144091.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144091.jpg"
-        },
-        "summary": "<p>The crew takes a vacation on the maiden voyage of the spaceship Titanic.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49297"
-          }
-        }
-      },
-      {
-        "id": 49298,
-        "url": "http://www.tvmaze.com/episodes/49298/futurama-2x02-mars-university",
-        "name": "Mars University",
-        "season": 2,
-        "number": 2,
-        "airdate": "1999-10-03",
-        "airtime": "22:00",
-        "airstamp": "1999-10-04T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144092.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144092.jpg"
-        },
-        "summary": "<p>The Professor introduces the crew to his newest experiment at Mars University.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49298"
-          }
-        }
-      },
-      {
-        "id": 49299,
-        "url": "http://www.tvmaze.com/episodes/49299/futurama-2x03-when-aliens-attack",
-        "name": "When Aliens Attack",
-        "season": 2,
-        "number": 3,
-        "airdate": "1999-11-07",
-        "airtime": "22:00",
-        "airstamp": "1999-11-08T03:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144093.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144093.jpg"
-        },
-        "summary": "<p>Aliens invade Earth in search of a TV star from 1999. Title sequence tagline \"Proudly Made On Earth\".</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49299"
-          }
-        }
-      },
-      {
-        "id": 49300,
-        "url": "http://www.tvmaze.com/episodes/49300/futurama-2x04-fry-the-slurm-factory",
-        "name": "Fry & the Slurm Factory",
-        "season": 2,
-        "number": 4,
-        "airdate": "1999-11-14",
-        "airtime": "22:00",
-        "airstamp": "1999-11-15T03:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144094.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144094.jpg"
-        },
-        "summary": "<p>Fry wins a trip to the Slurm Factory and discovers the secret behind the addictive soda. Title sequence tagline \"Live from Omicron Persei 8\".</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49300"
-          }
-        }
-      },
-      {
-        "id": 49301,
-        "url": "http://www.tvmaze.com/episodes/49301/futurama-2x05-i-second-that-emotion",
-        "name": "I Second That Emotion",
-        "season": 2,
-        "number": 5,
-        "airdate": "1999-11-21",
-        "airtime": "22:00",
-        "airstamp": "1999-11-22T03:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144095.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144095.jpg"
-        },
-        "summary": "<p>Leela, Fry and Bender search the mutant-filled sewers for Nibbler. Title sequence tagline \"Made From Meat By-Products\".</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49301"
-          }
-        }
-      },
-      {
-        "id": 49302,
-        "url": "http://www.tvmaze.com/episodes/49302/futurama-2x06-brannigan-begin-again",
-        "name": "Brannigan Begin Again",
-        "season": 2,
-        "number": 6,
-        "airdate": "1999-11-28",
-        "airtime": "22:00",
-        "airstamp": "1999-11-29T03:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144096.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144096.jpg"
-        },
-        "summary": "<p>Stripped of his title, space captain Zapp Brannigan begs for a job at Planet Express.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49302"
-          }
-        }
-      },
-      {
-        "id": 49303,
-        "url": "http://www.tvmaze.com/episodes/49303/futurama-2x07-a-head-in-the-polls",
-        "name": "A Head in the Polls",
-        "season": 2,
-        "number": 7,
-        "airdate": "1999-12-12",
-        "airtime": "22:00",
-        "airstamp": "1999-12-13T03:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144097.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144097.jpg"
-        },
-        "summary": "<p>When the value of titanium skyrockets, Bender sells his body for a large sum of money.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49303"
-          }
-        }
-      },
-      {
-        "id": 49304,
-        "url": "http://www.tvmaze.com/episodes/49304/futurama-2x08-xmas-story",
-        "name": "Xmas Story",
-        "season": 2,
-        "number": 8,
-        "airdate": "1999-12-19",
-        "airtime": "22:00",
-        "airstamp": "1999-12-20T03:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144098.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144098.jpg"
-        },
-        "summary": "<p>An evil robotic Santa Claus attack shows Fry how Christmas has changed in the last 1,000 years. Title tagline 'Based on a true story'.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49304"
-          }
-        }
-      },
-      {
-        "id": 49305,
-        "url": "http://www.tvmaze.com/episodes/49305/futurama-2x09-why-must-i-be-a-crustacean-in-love",
-        "name": "Why Must I Be a Crustacean in Love",
-        "season": 2,
-        "number": 9,
-        "airdate": "2000-02-06",
-        "airtime": "22:00",
-        "airstamp": "2000-02-07T03:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144099.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144099.jpg"
-        },
-        "summary": "<p>Zoidberg gets caught up in his species' mating frenzy. Title tagline 'From the network that brought you 'The Simpsons''</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49305"
-          }
-        }
-      },
-      {
-        "id": 49306,
-        "url": "http://www.tvmaze.com/episodes/49306/futurama-2x10-put-your-head-on-my-shoulder",
-        "name": "Put Your Head on My Shoulder",
-        "season": 2,
-        "number": 10,
-        "airdate": "2000-02-13",
-        "airtime": "22:00",
-        "airstamp": "2000-02-14T03:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144100.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144100.jpg"
-        },
-        "summary": "<p>Fry's head is conjoined with Amy's body after a car crash. Meanwhile, Bender receives a robot recall and faces the risk of catastrophic butt failure. Title sequence tagline ' Not based on the novel by James Fenimore Cooper'.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49306"
-          }
-        }
-      },
-      {
-        "id": 49307,
-        "url": "http://www.tvmaze.com/episodes/49307/futurama-2x11-lesser-of-two-evils",
-        "name": "Lesser of Two Evils",
-        "season": 2,
-        "number": 11,
-        "airdate": "2000-02-20",
-        "airtime": "22:00",
-        "airstamp": "2000-02-21T03:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144101.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144101.jpg"
-        },
-        "summary": "<p>Fry suspects Bender's robotic duplicate has stolen a valuable item from the Miss Universe pageant.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49307"
-          }
-        }
-      },
-      {
-        "id": 49308,
-        "url": "http://www.tvmaze.com/episodes/49308/futurama-2x12-raging-bender",
-        "name": "Raging Bender",
-        "season": 2,
-        "number": 12,
-        "airdate": "2000-02-27",
-        "airtime": "22:00",
-        "airstamp": "2000-02-28T03:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144102.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144102.jpg"
-        },
-        "summary": "<p>Bender inadvertently beats up the Ultimate Robot Fighting champion. Leela reminisces about when she wanted to become a fighting champion.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49308"
-          }
-        }
-      },
-      {
-        "id": 49309,
-        "url": "http://www.tvmaze.com/episodes/49309/futurama-2x13-a-bicyclops-built-for-two",
-        "name": "A Bicyclops Built for Two",
-        "season": 2,
-        "number": 13,
-        "airdate": "2000-03-19",
-        "airtime": "22:00",
-        "airstamp": "2000-03-20T03:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/46/117306.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/46/117306.jpg"
-        },
-        "summary": "<p>Leela meets a man named Alkazar and finds out she is not the only Cyclops. He takes her to his planet and proposes marriage to her, however Fry is suspicious of his motives. Title sequence tagline 'This episode has been modified to fit your primitive screen'.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49309"
-          }
-        }
-      },
-      {
-        "id": 49310,
-        "url": "http://www.tvmaze.com/episodes/49310/futurama-2x14-how-hermes-requisitioned-his-groove-back",
-        "name": "How Hermes Requisitioned His Groove Back",
-        "season": 2,
-        "number": 14,
-        "airdate": "2000-04-02",
-        "airtime": "22:00",
-        "airstamp": "2000-04-03T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144103.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144103.jpg"
-        },
-        "summary": "<p>Hermes is forced to take a vacation while a female bureaucrat replaces him. Title sequence tagline 'As foretold by Nostradamus'.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49310"
-          }
-        }
-      },
-      {
-        "id": 49311,
-        "url": "http://www.tvmaze.com/episodes/49311/futurama-2x15-a-clone-of-my-own",
-        "name": "A Clone of My Own",
-        "season": 2,
-        "number": 15,
-        "airdate": "2000-04-09",
-        "airtime": "22:00",
-        "airstamp": "2000-04-10T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144104.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144104.jpg"
-        },
-        "summary": "<p>Professor Farnsworth names his teenage clone to be the successor of his research. Title sequence tagline 'Coming soon to an illegal Dvd'.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49311"
-          }
-        }
-      },
-      {
-        "id": 49312,
-        "url": "http://www.tvmaze.com/episodes/49312/futurama-2x16-the-deep-south",
-        "name": "The Deep South",
-        "season": 2,
-        "number": 16,
-        "airdate": "2000-04-16",
-        "airtime": "22:00",
-        "airstamp": "2000-04-17T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144105.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144105.jpg"
-        },
-        "summary": "<p>The crew discovers the lost city of Atlanta, where Fry falls in love with a mermaid. Title sequence tagline 'A stern warning of things to come'.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49312"
-          }
-        }
-      },
-      {
-        "id": 49313,
-        "url": "http://www.tvmaze.com/episodes/49313/futurama-2x17-bender-gets-made",
-        "name": "Bender Gets Made",
-        "season": 2,
-        "number": 17,
-        "airdate": "2000-04-30",
-        "airtime": "22:00",
-        "airstamp": "2000-05-01T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144106.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144106.jpg"
-        },
-        "summary": "<p>Bender impresses the robot mafia with his thievery and joins them as a hired goon. Title sequence tagline 'Simulcast on crazy people's fillings'.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49313"
-          }
-        }
-      },
-      {
-        "id": 49314,
-        "url": "http://www.tvmaze.com/episodes/49314/futurama-2x18-the-problem-with-popplers",
-        "name": "The Problem with Popplers",
-        "season": 2,
-        "number": 18,
-        "airdate": "2000-05-07",
-        "airtime": "22:00",
-        "airstamp": "2000-05-08T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144107.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144107.jpg"
-        },
-        "summary": "<p>Aliens threaten to devour mankind after the crew unknowingly sells their young as fast food.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49314"
-          }
-        }
-      },
-      {
-        "id": 49315,
-        "url": "http://www.tvmaze.com/episodes/49315/futurama-2x19-mothers-day",
-        "name": "Mother's Day",
-        "season": 2,
-        "number": 19,
-        "airdate": "2000-05-14",
-        "airtime": "22:00",
-        "airstamp": "2000-05-15T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144108.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144108.jpg"
-        },
-        "summary": "<p>Mom's broken heart leads her to organize a robot rebellion.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49315"
-          }
-        }
-      },
-      {
-        "id": 49316,
-        "url": "http://www.tvmaze.com/episodes/49316/futurama-2x20-anthology-of-interest-1",
-        "name": "Anthology of Interest (1)",
-        "season": 2,
-        "number": 20,
-        "airdate": "2000-05-21",
-        "airtime": "22:00",
-        "airstamp": "2000-05-22T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144109.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144109.jpg"
-        },
-        "summary": "<p>The Professor creates a What-If machine that answers every question.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49316"
-          }
-        }
-      },
-      {
-        "id": 49317,
-        "url": "http://www.tvmaze.com/episodes/49317/futurama-3x01-the-honking",
-        "name": "The Honking",
-        "season": 3,
-        "number": 1,
-        "airdate": "2000-11-05",
-        "airtime": "22:00",
-        "airstamp": "2000-11-06T03:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144110.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144110.jpg"
-        },
-        "summary": "<p>The Professor creates a What-If machine that answers every question.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49317"
-          }
-        }
-      },
-      {
-        "id": 49318,
-        "url": "http://www.tvmaze.com/episodes/49318/futurama-3x02-war-is-the-h-word",
-        "name": "War Is the H-Word",
-        "season": 3,
-        "number": 2,
-        "airdate": "2000-11-26",
-        "airtime": "22:00",
-        "airstamp": "2000-11-27T03:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144111.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144111.jpg"
-        },
-        "summary": "<p>When Bender and Fry volunteer for military duty, Leela also joins the all-male ranks, as Lee Lemon.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49318"
-          }
-        }
-      },
-      {
-        "id": 49319,
-        "url": "http://www.tvmaze.com/episodes/49319/futurama-3x03-the-cryonic-woman",
-        "name": "The Cryonic Woman",
-        "season": 3,
-        "number": 3,
-        "airdate": "2000-12-03",
-        "airtime": "22:00",
-        "airstamp": "2000-12-04T03:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144112.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144112.jpg"
-        },
-        "summary": "<p>Fry is reunited with his girlfriend from the 20th century.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49319"
-          }
-        }
-      },
-      {
-        "id": 49320,
-        "url": "http://www.tvmaze.com/episodes/49320/futurama-3x04-parasites-lost",
-        "name": "Parasites Lost",
-        "season": 3,
-        "number": 4,
-        "airdate": "2001-01-21",
-        "airtime": "22:00",
-        "airstamp": "2001-01-22T03:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144113.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144113.jpg"
-        },
-        "summary": "<p>The crew takes a trip inside Fry's body to save him from parasitic worms.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49320"
-          }
-        }
-      },
-      {
-        "id": 49321,
-        "url": "http://www.tvmaze.com/episodes/49321/futurama-3x05-amazon-women-in-the-mood",
-        "name": "Amazon Women in the Mood",
-        "season": 3,
-        "number": 5,
-        "airdate": "2001-02-04",
-        "airtime": "22:00",
-        "airstamp": "2001-02-05T03:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144114.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144114.jpg"
-        },
-        "summary": "<p>The crew gets stranded on a planet of Amazonian women.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49321"
-          }
-        }
-      },
-      {
-        "id": 49322,
-        "url": "http://www.tvmaze.com/episodes/49322/futurama-3x06-bendless-love",
-        "name": "Bendless Love",
-        "season": 3,
-        "number": 6,
-        "airdate": "2001-02-11",
-        "airtime": "22:00",
-        "airstamp": "2001-02-12T03:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/23/59911.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/23/59911.jpg"
-        },
-        "summary": "<p>Bender gets jealous when he thinks his new fembot love might still love her ex.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49322"
-          }
-        }
-      },
-      {
-        "id": 49323,
-        "url": "http://www.tvmaze.com/episodes/49323/futurama-3x07-the-day-the-earth-stood-stupid",
-        "name": "The Day the Earth Stood Stupid",
-        "season": 3,
-        "number": 7,
-        "airdate": "2001-02-18",
-        "airtime": "22:00",
-        "airstamp": "2001-02-19T03:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144115.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144115.jpg"
-        },
-        "summary": "<p>Only Fry's superior inferior brain can save the day when knowledge-sucking alien brains invade.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49323"
-          }
-        }
-      },
-      {
-        "id": 49324,
-        "url": "http://www.tvmaze.com/episodes/49324/futurama-3x08-thats-lobstertainment",
-        "name": "That's Lobstertainment!",
-        "season": 3,
-        "number": 8,
-        "airdate": "2001-02-25",
-        "airtime": "22:00",
-        "airstamp": "2001-02-26T03:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144116.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144116.jpg"
-        },
-        "summary": "<p>Dr. Zoidberg heads to Hollywood to help his washed-up uncle revive his film career.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49324"
-          }
-        }
-      },
-      {
-        "id": 49325,
-        "url": "http://www.tvmaze.com/episodes/49325/futurama-3x09-the-birdbot-of-ice-catraz",
-        "name": "The Birdbot of Ice-Catraz",
-        "season": 3,
-        "number": 9,
-        "airdate": "2001-03-04",
-        "airtime": "22:00",
-        "airstamp": "2001-03-05T03:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144117.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144117.jpg"
-        },
-        "summary": "<p>Leela fights to save the penguins of Pluto after an oil spill.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49325"
-          }
-        }
-      },
-      {
-        "id": 49326,
-        "url": "http://www.tvmaze.com/episodes/49326/futurama-3x10-luck-of-the-fryrish",
-        "name": "Luck of the Fryrish",
-        "season": 3,
-        "number": 10,
-        "airdate": "2001-03-11",
-        "airtime": "22:00",
-        "airstamp": "2001-03-12T03:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144118.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144118.jpg"
-        },
-        "summary": "<p>Fry travels to Old New York to retrieve his lucky clover.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49326"
-          }
-        }
-      },
-      {
-        "id": 49327,
-        "url": "http://www.tvmaze.com/episodes/49327/futurama-3x11-the-cyber-house-rules",
-        "name": "The Cyber House Rules",
-        "season": 3,
-        "number": 11,
-        "airdate": "2001-04-01",
-        "airtime": "22:00",
-        "airstamp": "2001-04-02T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144119.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144119.jpg"
-        },
-        "summary": "<p>A trip to the orphanarium leads Leela to get cosmetic surgery and Bender to adopt 12 orphans.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49327"
-          }
-        }
-      },
-      {
-        "id": 49328,
-        "url": "http://www.tvmaze.com/episodes/49328/futurama-3x12-insane-in-the-mainframe",
-        "name": "Insane in the Mainframe",
-        "season": 3,
-        "number": 12,
-        "airdate": "2001-04-08",
-        "airtime": "22:00",
-        "airstamp": "2001-04-09T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144120.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144120.jpg"
-        },
-        "summary": "<p>Fry thinks he's a robot after being brainwashed at an insane robot asylum.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49328"
-          }
-        }
-      },
-      {
-        "id": 49329,
-        "url": "http://www.tvmaze.com/episodes/49329/futurama-3x13-bendin-in-the-wind",
-        "name": "Bendin' in the Wind",
-        "season": 3,
-        "number": 13,
-        "airdate": "2001-04-22",
-        "airtime": "22:00",
-        "airstamp": "2001-04-23T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144121.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144121.jpg"
-        },
-        "summary": "<p>A paralyzed Bender joins rock star Beck on the concert road.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49329"
-          }
-        }
-      },
-      {
-        "id": 49330,
-        "url": "http://www.tvmaze.com/episodes/49330/futurama-3x14-time-keeps-on-slipping",
-        "name": "Time Keeps on Slipping",
-        "season": 3,
-        "number": 14,
-        "airdate": "2001-05-06",
-        "airtime": "22:00",
-        "airstamp": "2001-05-07T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144122.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144122.jpg"
-        },
-        "summary": "<p>The crew is responsible for a rift in the time/space continuum.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49330"
-          }
-        }
-      },
-      {
-        "id": 49331,
-        "url": "http://www.tvmaze.com/episodes/49331/futurama-3x15-i-dated-a-robot",
-        "name": "I Dated a Robot",
-        "season": 3,
-        "number": 15,
-        "airdate": "2001-05-13",
-        "airtime": "22:00",
-        "airstamp": "2001-05-14T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144123.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144123.jpg"
-        },
-        "summary": "<p>Fry falls in love with a Lucy Liu robot.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49331"
-          }
-        }
-      },
-      {
-        "id": 49332,
-        "url": "http://www.tvmaze.com/episodes/49332/futurama-4x01-roswell-that-ends-well",
-        "name": "Roswell That Ends Well",
-        "season": 4,
-        "number": 1,
-        "airdate": "2001-12-09",
-        "airtime": "22:00",
-        "airstamp": "2001-12-10T03:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144124.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144124.jpg"
-        },
-        "summary": "<p>Fry must make sure his grandfather survives in Roswell, NM, or he himself will cease to exist.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49332"
-          }
-        }
-      },
-      {
-        "id": 49333,
-        "url": "http://www.tvmaze.com/episodes/49333/futurama-4x02-a-tale-of-two-santas",
-        "name": "A Tale of Two Santas",
-        "season": 4,
-        "number": 2,
-        "airdate": "2001-12-23",
-        "airtime": "22:00",
-        "airstamp": "2001-12-24T03:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144125.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144125.jpg"
-        },
-        "summary": "<p>Bender takes over as Santa Claus to bring back Xmas spirit.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49333"
-          }
-        }
-      },
-      {
-        "id": 49334,
-        "url": "http://www.tvmaze.com/episodes/49334/futurama-4x03-anthology-of-interest-2",
-        "name": "Anthology of Interest (2)",
-        "season": 4,
-        "number": 3,
-        "airdate": "2002-01-06",
-        "airtime": "22:00",
-        "airstamp": "2002-01-07T03:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144126.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144126.jpg"
-        },
-        "summary": "<p>The What-If machine projects a human Bender, the world as a video game and Leela in her real home. Title sequence tagline 'Hey TiVo! Suggest this!'.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49334"
-          }
-        }
-      },
-      {
-        "id": 49335,
-        "url": "http://www.tvmaze.com/episodes/49335/futurama-4x04-love-and-rocket",
-        "name": "Love and Rocket",
-        "season": 4,
-        "number": 4,
-        "airdate": "2002-02-10",
-        "airtime": "22:00",
-        "airstamp": "2002-02-11T03:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144127.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144127.jpg"
-        },
-        "summary": "<p>Bender and the Planet Express ship fall in love resulting in a mishap adventure when Bender jilts her. Title sequence tagline 'When you see the robot, drink!'.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49335"
-          }
-        }
-      },
-      {
-        "id": 49336,
-        "url": "http://www.tvmaze.com/episodes/49336/futurama-4x05-leelas-homeworld",
-        "name": "Leela's Homeworld",
-        "season": 4,
-        "number": 5,
-        "airdate": "2002-02-17",
-        "airtime": "22:00",
-        "airstamp": "2002-02-18T03:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144128.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144128.jpg"
-        },
-        "summary": "<p>Leela learns the truth about her parents and her identity when Bender angers a group of people with his toxic waste dumping. Title sequence tagline 'It's llike \"Hee Haw\" with lasers'.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49336"
-          }
-        }
-      },
-      {
-        "id": 49337,
-        "url": "http://www.tvmaze.com/episodes/49337/futurama-4x06-where-the-buggalo-roam",
-        "name": "Where the Buggalo Roam",
-        "season": 4,
-        "number": 6,
-        "airdate": "2002-03-03",
-        "airtime": "22:00",
-        "airstamp": "2002-03-04T03:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144129.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144129.jpg"
-        },
-        "summary": "<p>Kif does everything possible to win Amy's parents' approval.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49337"
-          }
-        }
-      },
-      {
-        "id": 49338,
-        "url": "http://www.tvmaze.com/episodes/49338/futurama-4x07-a-pharaoh-to-remember",
-        "name": "A Pharaoh to Remember",
-        "season": 4,
-        "number": 7,
-        "airdate": "2002-03-10",
-        "airtime": "22:00",
-        "airstamp": "2002-03-11T03:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144130.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144130.jpg"
-        },
-        "summary": "<p>Bender becomes a tyrannical leader of a planet that resembles ancient Egypt. Title sequence tagline 'Psst...Big party at your house after the show'.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49338"
-          }
-        }
-      },
-      {
-        "id": 49339,
-        "url": "http://www.tvmaze.com/episodes/49339/futurama-4x08-godfellas",
-        "name": "Godfellas",
-        "season": 4,
-        "number": 8,
-        "airdate": "2002-03-17",
-        "airtime": "22:00",
-        "airstamp": "2002-03-18T03:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144131.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144131.jpg"
-        },
-        "summary": "<p>Bender gets lost in space and becomes a god to a race of tiny aliens. Title sequence tagline 'Please turn off all cell phones and tricorders!'.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49339"
-          }
-        }
-      },
-      {
-        "id": 49340,
-        "url": "http://www.tvmaze.com/episodes/49340/futurama-4x09-futurestock",
-        "name": "Futurestock",
-        "season": 4,
-        "number": 9,
-        "airdate": "2002-03-31",
-        "airtime": "22:00",
-        "airstamp": "2002-04-01T03:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144133.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144133.jpg"
-        },
-        "summary": "<p>A 1980s businessman takes over Planet Express and threatens to sell it to a larger corporation. Title sequence tagline 'Love it or shove it!'.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49340"
-          }
-        }
-      },
-      {
-        "id": 49341,
-        "url": "http://www.tvmaze.com/episodes/49341/futurama-4x10-a-leela-of-her-own",
-        "name": "A Leela of Her Own",
-        "season": 4,
-        "number": 10,
-        "airdate": "2002-04-07",
-        "airtime": "22:00",
-        "airstamp": "2002-04-08T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144134.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144134.jpg"
-        },
-        "summary": "<p>Leela becomes the first -- and worst -- female blernsball player. Title sequence tagline 'Scratch here to reveal prize'.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49341"
-          }
-        }
-      },
-      {
-        "id": 49342,
-        "url": "http://www.tvmaze.com/episodes/49342/futurama-4x11-30-iron-chef",
-        "name": "30% Iron Chef",
-        "season": 4,
-        "number": 11,
-        "airdate": "2002-04-14",
-        "airtime": "22:00",
-        "airstamp": "2002-04-15T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144138.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144138.jpg"
-        },
-        "summary": "<p>Bender challenges a famous chef to a cooking contest. Title sequence tagline 'If accidentally watched induce vomiting'.</p><p>'.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49342"
-          }
-        }
-      },
-      {
-        "id": 49343,
-        "url": "http://www.tvmaze.com/episodes/49343/futurama-4x12-where-no-fan-has-gone-before",
-        "name": "Where No Fan Has Gone Before",
-        "season": 4,
-        "number": 12,
-        "airdate": "2002-04-21",
-        "airtime": "22:00",
-        "airstamp": "2002-04-22T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144139.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144139.jpg"
-        },
-        "summary": "<p>The Planet Express crew is pitted against the cast of \"Star Trek\" in a battle to the death.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49343"
-          }
-        }
-      },
-      {
-        "id": 49344,
-        "url": "http://www.tvmaze.com/episodes/49344/futurama-5x01-crimes-of-the-hot",
-        "name": "Crimes of the Hot",
-        "season": 5,
-        "number": 1,
-        "airdate": "2002-11-10",
-        "airtime": "22:00",
-        "airstamp": "2002-11-11T03:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144145.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144145.jpg"
-        },
-        "summary": "<p>Earth's robots are sentenced to death when they are identified as the cause of global warming.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49344"
-          }
-        }
-      },
-      {
-        "id": 49345,
-        "url": "http://www.tvmaze.com/episodes/49345/futurama-5x02-jurassic-bark",
-        "name": "Jurassic Bark",
-        "season": 5,
-        "number": 2,
-        "airdate": "2002-11-17",
-        "airtime": "22:00",
-        "airstamp": "2002-11-18T03:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144147.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144147.jpg"
-        },
-        "summary": "<p>Fry finds his fossilized dog in a museum exhibit and attempts to bring it back to life with cloning.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49345"
-          }
-        }
-      },
-      {
-        "id": 49346,
-        "url": "http://www.tvmaze.com/episodes/49346/futurama-5x03-the-route-of-all-evil",
-        "name": "The Route of All Evil",
-        "season": 5,
-        "number": 3,
-        "airdate": "2002-12-08",
-        "airtime": "22:00",
-        "airstamp": "2002-12-09T03:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144148.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144148.jpg"
-        },
-        "summary": "<p>Cubert and Dwight's new delivery company drives Planet Express out of business.</p><p></p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49346"
-          }
-        }
-      },
-      {
-        "id": 49347,
-        "url": "http://www.tvmaze.com/episodes/49347/futurama-5x04-a-taste-of-freedom",
-        "name": "A Taste of Freedom",
-        "season": 5,
-        "number": 4,
-        "airdate": "2002-12-22",
-        "airtime": "22:00",
-        "airstamp": "2002-12-23T03:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144149.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144149.jpg"
-        },
-        "summary": "<p>Zoidberg is sentenced to death for eating Earth's flag on Freedom Day.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49347"
-          }
-        }
-      },
-      {
-        "id": 49348,
-        "url": "http://www.tvmaze.com/episodes/49348/futurama-5x05-kif-gets-knocked-up-a-notch",
-        "name": "Kif Gets Knocked Up a Notch",
-        "season": 5,
-        "number": 5,
-        "airdate": "2003-01-12",
-        "airtime": "22:00",
-        "airstamp": "2003-01-13T03:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144150.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144150.jpg"
-        },
-        "summary": "<p>Amy's romance with Kif takes an unexpected twist when he becomes pregnant.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49348"
-          }
-        }
-      },
-      {
-        "id": 49349,
-        "url": "http://www.tvmaze.com/episodes/49349/futurama-5x06-less-than-hero",
-        "name": "Less Than Hero",
-        "season": 5,
-        "number": 6,
-        "airdate": "2003-03-02",
-        "airtime": "22:00",
-        "airstamp": "2003-03-03T03:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144154.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144154.jpg"
-        },
-        "summary": "<p>Fry and Leela form a superhero team after a miracle cream gives them super powers.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49349"
-          }
-        }
-      },
-      {
-        "id": 49350,
-        "url": "http://www.tvmaze.com/episodes/49350/futurama-5x07-teenage-mutant-leelas-hurdles",
-        "name": "Teenage Mutant Leela's Hurdles",
-        "season": 5,
-        "number": 7,
-        "airdate": "2003-03-30",
-        "airtime": "22:00",
-        "airstamp": "2003-03-31T03:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144155.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144155.jpg"
-        },
-        "summary": "<p>The Planet Express crew revert into teenagers after falling into aging tar.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49350"
-          }
-        }
-      },
-      {
-        "id": 49351,
-        "url": "http://www.tvmaze.com/episodes/49351/futurama-5x08-the-why-of-fry",
-        "name": "The Why of Fry",
-        "season": 5,
-        "number": 8,
-        "airdate": "2003-04-06",
-        "airtime": "22:00",
-        "airstamp": "2003-04-07T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144156.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144156.jpg"
-        },
-        "summary": "<p>Nibbler recruits Fry on a mission to save Earth from evil, all-knowing brains.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49351"
-          }
-        }
-      },
-      {
-        "id": 49352,
-        "url": "http://www.tvmaze.com/episodes/49352/futurama-5x09-the-sting",
-        "name": "The Sting",
-        "season": 5,
-        "number": 9,
-        "airdate": "2003-06-01",
-        "airtime": "22:00",
-        "airstamp": "2003-06-02T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144158.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144158.jpg"
-        },
-        "summary": "<p>A killer bee sting traps Leela in a strange loop of guilt-ridden dreams.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49352"
-          }
-        }
-      },
-      {
-        "id": 49353,
-        "url": "http://www.tvmaze.com/episodes/49353/futurama-5x10-the-farnsworth-parabox",
-        "name": "The Farnsworth Parabox",
-        "season": 5,
-        "number": 10,
-        "airdate": "2003-06-08",
-        "airtime": "22:00",
-        "airstamp": "2003-06-09T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144160.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144160.jpg"
-        },
-        "summary": "<p>The crew ventures into a parallel universe accidentally created by the Professor.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49353"
-          }
-        }
-      },
-      {
-        "id": 49354,
-        "url": "http://www.tvmaze.com/episodes/49354/futurama-5x11-three-hundred-big-boys",
-        "name": "Three Hundred Big Boys",
-        "season": 5,
-        "number": 11,
-        "airdate": "2003-06-15",
-        "airtime": "22:00",
-        "airstamp": "2003-06-16T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144161.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144161.jpg"
-        },
-        "summary": "<p>A $300 tax rebate from the government prompts everyone to live out their aspirations.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49354"
-          }
-        }
-      },
-      {
-        "id": 49355,
-        "url": "http://www.tvmaze.com/episodes/49355/futurama-5x12-spanish-fry",
-        "name": "Spanish Fry",
-        "season": 5,
-        "number": 12,
-        "airdate": "2003-07-13",
-        "airtime": "22:00",
-        "airstamp": "2003-07-14T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144162.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144162.jpg"
-        },
-        "summary": "<p>Fry goes in search of his nose after poachers sell it on the black market as an aphrodisiac.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49355"
-          }
-        }
-      },
-      {
-        "id": 49356,
-        "url": "http://www.tvmaze.com/episodes/49356/futurama-5x13-bend-her",
-        "name": "Bend Her",
-        "season": 5,
-        "number": 13,
-        "airdate": "2003-07-20",
-        "airtime": "22:00",
-        "airstamp": "2003-07-21T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144163.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144163.jpg"
-        },
-        "summary": "<p>Bender becomes an Olympic fembot and wins the love of a famous robot.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49356"
-          }
-        }
-      },
-      {
-        "id": 49357,
-        "url": "http://www.tvmaze.com/episodes/49357/futurama-5x14-obsoletely-fabulous",
-        "name": "Obsoletely Fabulous",
-        "season": 5,
-        "number": 14,
-        "airdate": "2003-07-27",
-        "airtime": "22:00",
-        "airstamp": "2003-07-28T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144164.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144164.jpg"
-        },
-        "summary": "<p>Bender needs an upgrade when a new robot makes him feel obsolete.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49357"
-          }
-        }
-      },
-      {
-        "id": 49358,
-        "url": "http://www.tvmaze.com/episodes/49358/futurama-5x15-bender-should-not-be-allowed-on-television",
-        "name": "Bender Should Not Be Allowed on Television",
-        "season": 5,
-        "number": 15,
-        "airdate": "2003-08-03",
-        "airtime": "22:00",
-        "airstamp": "2003-08-04T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144165.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144165.jpg"
-        },
-        "summary": "<p>Bender becomes the new star of a soap opera and a bad role model for children everywhere. Title sequence tagline 'Controlling you through a chip in your butt since 1999'.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49358"
-          }
-        }
-      },
-      {
-        "id": 49359,
-        "url": "http://www.tvmaze.com/episodes/49359/futurama-5x16-the-devils-hands-are-idle-playthings",
-        "name": "The Devil's Hands Are Idle Playthings",
-        "season": 5,
-        "number": 16,
-        "airdate": "2003-08-10",
-        "airtime": "22:00",
-        "airstamp": "2003-08-11T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144166.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144166.jpg"
-        },
-        "summary": "<p><br>Fry makes a deal with the Robot Devil in order to master the holophone and show his love for Leela.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49359"
-          }
-        }
-      },
-      {
-        "id": 49360,
-        "url": "http://www.tvmaze.com/episodes/49360/futurama-6x01-rebirth",
-        "name": "Rebirth",
-        "season": 6,
-        "number": 1,
-        "airdate": "2010-06-24",
-        "airtime": "22:00",
-        "airstamp": "2010-06-25T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144172.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144172.jpg"
-        },
-        "summary": "<p>After a devastating crash, the Professor attempts to resuscitate the crew with his birth machine.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49360"
-          }
-        }
-      },
-      {
-        "id": 49361,
-        "url": "http://www.tvmaze.com/episodes/49361/futurama-6x02-in-a-gadda-da-leela",
-        "name": "In-A-Gadda-Da-Leela",
-        "season": 6,
-        "number": 2,
-        "airdate": "2010-06-24",
-        "airtime": "22:30",
-        "airstamp": "2010-06-25T02:30:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144173.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144173.jpg"
-        },
-        "summary": "<p>Leela and Zapp Brannigan find themselves stranded on an Eden-like planet.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49361"
-          }
-        }
-      },
-      {
-        "id": 49362,
-        "url": "http://www.tvmaze.com/episodes/49362/futurama-6x03-attack-of-the-killer-app",
-        "name": "Attack of the Killer App",
-        "season": 6,
-        "number": 3,
-        "airdate": "2010-07-01",
-        "airtime": "22:00",
-        "airstamp": "2010-07-02T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144174.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144174.jpg"
-        },
-        "summary": "<p>Fry posts an embarrassing video of Leela online.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49362"
-          }
-        }
-      },
-      {
-        "id": 49363,
-        "url": "http://www.tvmaze.com/episodes/49363/futurama-6x04-proposition-infinity",
-        "name": "Proposition Infinity",
-        "season": 6,
-        "number": 4,
-        "airdate": "2010-07-08",
-        "airtime": "22:00",
-        "airstamp": "2010-07-09T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144175.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144175.jpg"
-        },
-        "summary": "<p>Bender leads a campaign to legalize robosexual marriage between humans and robots.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49363"
-          }
-        }
-      },
-      {
-        "id": 49364,
-        "url": "http://www.tvmaze.com/episodes/49364/futurama-6x05-the-duh-vinci-code",
-        "name": "The Duh-Vinci Code",
-        "season": 6,
-        "number": 5,
-        "airdate": "2010-07-15",
-        "airtime": "22:00",
-        "airstamp": "2010-07-16T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144176.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144176.jpg"
-        },
-        "summary": "<p>The crew races to future Rome to unearth the shocking secret of Leonardo da Vinci.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49364"
-          }
-        }
-      },
-      {
-        "id": 49365,
-        "url": "http://www.tvmaze.com/episodes/49365/futurama-6x06-lethal-inspection",
-        "name": "Lethal Inspection",
-        "season": 6,
-        "number": 6,
-        "airdate": "2010-07-22",
-        "airtime": "22:00",
-        "airstamp": "2010-07-23T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144177.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144177.jpg"
-        },
-        "summary": "<p>Bender learns that he suffers from a mortal manufacturing defect.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49365"
-          }
-        }
-      },
-      {
-        "id": 49366,
-        "url": "http://www.tvmaze.com/episodes/49366/futurama-6x07-the-late-philip-j-fry",
-        "name": "The Late Philip J. Fry",
-        "season": 6,
-        "number": 7,
-        "airdate": "2010-07-29",
-        "airtime": "22:00",
-        "airstamp": "2010-07-30T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144178.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144178.jpg"
-        },
-        "summary": "<p>The Professor's one-way time machine takes the crew further into the future, with no hope of return.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49366"
-          }
-        }
-      },
-      {
-        "id": 49367,
-        "url": "http://www.tvmaze.com/episodes/49367/futurama-6x08-that-darn-katz",
-        "name": "That Darn Katz!",
-        "season": 6,
-        "number": 8,
-        "airdate": "2010-08-05",
-        "airtime": "22:00",
-        "airstamp": "2010-08-06T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144180.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144180.jpg"
-        },
-        "summary": "<p>Earth is invaded by a race of intelligent cats.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49367"
-          }
-        }
-      },
-      {
-        "id": 49368,
-        "url": "http://www.tvmaze.com/episodes/49368/futurama-6x09-a-clockwork-origin",
-        "name": "A Clockwork Origin",
-        "season": 6,
-        "number": 9,
-        "airdate": "2010-08-12",
-        "airtime": "22:00",
-        "airstamp": "2010-08-13T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144181.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144181.jpg"
-        },
-        "summary": "<p>The theory of evolution is put to the test on a planet inhabited by robots.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49368"
-          }
-        }
-      },
-      {
-        "id": 49369,
-        "url": "http://www.tvmaze.com/episodes/49369/futurama-6x10-the-prisoner-of-benda",
-        "name": "The Prisoner of Benda",
-        "season": 6,
-        "number": 10,
-        "airdate": "2010-08-19",
-        "airtime": "22:00",
-        "airstamp": "2010-08-20T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144182.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144182.jpg"
-        },
-        "summary": "<p>A revolutionary invention allows the crew members to exchange minds.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49369"
-          }
-        }
-      },
-      {
-        "id": 49370,
-        "url": "http://www.tvmaze.com/episodes/49370/futurama-6x11-lrrreconcilable-ndndifferences",
-        "name": "Lrrreconcilable Ndndifferences",
-        "season": 6,
-        "number": 11,
-        "airdate": "2010-08-26",
-        "airtime": "22:00",
-        "airstamp": "2010-08-27T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144183.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144183.jpg"
-        },
-        "summary": "<p>After a bungled Earth invasion, alien leader Lrrr faces a midlife crisis.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49370"
-          }
-        }
-      },
-      {
-        "id": 49371,
-        "url": "http://www.tvmaze.com/episodes/49371/futurama-6x12-the-mutants-are-revolting",
-        "name": "The Mutants Are Revolting",
-        "season": 6,
-        "number": 12,
-        "airdate": "2010-09-02",
-        "airtime": "22:00",
-        "airstamp": "2010-09-03T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144184.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144184.jpg"
-        },
-        "summary": "<p>Leela leads an army of underground mutants in a rebellion against the surface people.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49371"
-          }
-        }
-      },
-      {
-        "id": 49372,
-        "url": "http://www.tvmaze.com/episodes/49372/futurama-6x13-the-futurama-holiday-spectacular",
-        "name": "The Futurama Holiday Spectacular",
-        "season": 6,
-        "number": 13,
-        "airdate": "2010-11-21",
-        "airtime": "22:00",
-        "airstamp": "2010-11-22T03:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144185.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144185.jpg"
-        },
-        "summary": "<p>The Planet Express crew learns the true meaning of Xmas, Robanukah and Kwanzaa.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49372"
-          }
-        }
-      },
-      {
-        "id": 49373,
-        "url": "http://www.tvmaze.com/episodes/49373/futurama-6x14-neutopia",
-        "name": "Neutopia",
-        "season": 6,
-        "number": 14,
-        "airdate": "2011-06-23",
-        "airtime": "22:00",
-        "airstamp": "2011-06-24T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144186.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144186.jpg"
-        },
-        "summary": "<p>The crew members encounter a bizarre alien with the power to change their sexual characteristics.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49373"
-          }
-        }
-      },
-      {
-        "id": 49374,
-        "url": "http://www.tvmaze.com/episodes/49374/futurama-6x15-benderama",
-        "name": "Benderama",
-        "season": 6,
-        "number": 15,
-        "airdate": "2011-06-23",
-        "airtime": "22:30",
-        "airstamp": "2011-06-24T02:30:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144187.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144187.jpg"
-        },
-        "summary": "<p>Bender gains the ability to self-replicate, threatening to overrun Earth with vast swarms of himself.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49374"
-          }
-        }
-      },
-      {
-        "id": 49375,
-        "url": "http://www.tvmaze.com/episodes/49375/futurama-6x16-ghost-in-the-machines",
-        "name": "Ghost in the Machines",
-        "season": 6,
-        "number": 16,
-        "airdate": "2011-06-30",
-        "airtime": "22:00",
-        "airstamp": "2011-07-01T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144188.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144188.jpg"
-        },
-        "summary": "<p>When Bender dies, his disembodied software haunts the Planet Express building.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49375"
-          }
-        }
-      },
-      {
-        "id": 49376,
-        "url": "http://www.tvmaze.com/episodes/49376/futurama-6x17-law-and-oracle",
-        "name": "Law and Oracle",
-        "season": 6,
-        "number": 17,
-        "airdate": "2011-07-07",
-        "airtime": "22:00",
-        "airstamp": "2011-07-08T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144189.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144189.jpg"
-        },
-        "summary": "<p>Fry quits his job and becomes a police officer assigned to the Future Crimes Division.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49376"
-          }
-        }
-      },
-      {
-        "id": 49377,
-        "url": "http://www.tvmaze.com/episodes/49377/futurama-6x18-the-silence-of-the-clamps",
-        "name": "The Silence of the Clamps",
-        "season": 6,
-        "number": 18,
-        "airdate": "2011-07-14",
-        "airtime": "22:00",
-        "airstamp": "2011-07-15T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144190.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144190.jpg"
-        },
-        "summary": "<p>After testifying against the Robot Mafia, Bender goes into hiding in the witness relocation program.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49377"
-          }
-        }
-      },
-      {
-        "id": 49378,
-        "url": "http://www.tvmaze.com/episodes/49378/futurama-6x19-yo-leela-leela",
-        "name": "Yo Leela Leela",
-        "season": 6,
-        "number": 19,
-        "airdate": "2011-07-21",
-        "airtime": "22:00",
-        "airstamp": "2011-07-22T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144191.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144191.jpg"
-        },
-        "summary": "<p>Leela becomes a Hollywood big shot after creating a hit children's television series.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49378"
-          }
-        }
-      },
-      {
-        "id": 49379,
-        "url": "http://www.tvmaze.com/episodes/49379/futurama-6x20-all-the-presidents-heads",
-        "name": "All the Presidents' Heads",
-        "season": 6,
-        "number": 20,
-        "airdate": "2011-07-28",
-        "airtime": "22:00",
-        "airstamp": "2011-07-29T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144192.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144192.jpg"
-        },
-        "summary": "<p>The crew members alter history when they travel back in time to the American Revolution.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49379"
-          }
-        }
-      },
-      {
-        "id": 49380,
-        "url": "http://www.tvmaze.com/episodes/49380/futurama-6x21-mobius-dick",
-        "name": "Möbius Dick",
-        "season": 6,
-        "number": 21,
-        "airdate": "2011-08-04",
-        "airtime": "22:00",
-        "airstamp": "2011-08-05T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144193.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144193.jpg"
-        },
-        "summary": "<p>Leela becomes obsessed with hunting down a mysterious four-dimensional space whale.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49380"
-          }
-        }
-      },
-      {
-        "id": 49381,
-        "url": "http://www.tvmaze.com/episodes/49381/futurama-6x22-fry-am-the-egg-man",
-        "name": "Fry am the Egg Man",
-        "season": 6,
-        "number": 22,
-        "airdate": "2011-08-11",
-        "airtime": "22:00",
-        "airstamp": "2011-08-12T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144196.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144196.jpg"
-        },
-        "summary": "<p>Fry nurtures an alien egg that hatches into a horrific monster. Title sequence tagline 'If accidentally watched, induce vomiting'.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49381"
-          }
-        }
-      },
-      {
-        "id": 49382,
-        "url": "http://www.tvmaze.com/episodes/49382/futurama-6x23-the-tip-of-the-zoidberg",
-        "name": "The Tip of the Zoidberg",
-        "season": 6,
-        "number": 23,
-        "airdate": "2011-08-18",
-        "airtime": "22:00",
-        "airstamp": "2011-08-19T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144198.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144198.jpg"
-        },
-        "summary": "<p>The crew uncovers a covert mission undertaken by the Professor and Dr. Zoidberg many years ago.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49382"
-          }
-        }
-      },
-      {
-        "id": 49383,
-        "url": "http://www.tvmaze.com/episodes/49383/futurama-6x24-cold-warriors",
-        "name": "Cold Warriors",
-        "season": 6,
-        "number": 24,
-        "airdate": "2011-08-25",
-        "airtime": "22:00",
-        "airstamp": "2011-08-26T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144201.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144201.jpg"
-        },
-        "summary": "<p>Fry's sneezing reintroduces the common cold to the world of the future.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49383"
-          }
-        }
-      },
-      {
-        "id": 49384,
-        "url": "http://www.tvmaze.com/episodes/49384/futurama-6x25-overclockwise",
-        "name": "Overclockwise",
-        "season": 6,
-        "number": 25,
-        "airdate": "2011-09-01",
-        "airtime": "22:00",
-        "airstamp": "2011-09-02T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144203.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144203.jpg"
-        },
-        "summary": "<p>Bender evolves into a godlike being after vastly increasing his processing power. Meanwhile, Fry also worries about his relationship and future with Leela.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49384"
-          }
-        }
-      },
-      {
-        "id": 49385,
-        "url": "http://www.tvmaze.com/episodes/49385/futurama-6x26-reincarnation",
-        "name": "Reincarnation",
-        "season": 6,
-        "number": 26,
-        "airdate": "2011-09-08",
-        "airtime": "22:00",
-        "airstamp": "2011-09-09T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144205.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144205.jpg"
-        },
-        "summary": "<p>The gang turns into 8-bit, anime and classic black-and-white versions of itself.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49385"
-          }
-        }
-      },
-      {
-        "id": 49386,
-        "url": "http://www.tvmaze.com/episodes/49386/futurama-7x01-the-bots-and-the-bees",
-        "name": "The Bots and the Bees",
-        "season": 7,
-        "number": 1,
-        "airdate": "2012-06-20",
-        "airtime": "22:00",
-        "airstamp": "2012-06-21T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144223.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144223.jpg"
-        },
-        "summary": "<p>Bender fathers a child with the office soda machine</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49386"
-          }
-        }
-      },
-      {
-        "id": 49387,
-        "url": "http://www.tvmaze.com/episodes/49387/futurama-7x02-a-farewell-to-arms",
-        "name": "A Farewell to Arms",
-        "season": 7,
-        "number": 2,
-        "airdate": "2012-06-20",
-        "airtime": "22:00",
-        "airstamp": "2012-06-21T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144224.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144224.jpg"
-        },
-        "summary": "<p>An ancient prophecy predicts the world will end in the year 3012. Title tagline 'Ask your doctor if Futurama is right for you.'.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49387"
-          }
-        }
-      },
-      {
-        "id": 49388,
-        "url": "http://www.tvmaze.com/episodes/49388/futurama-7x03-decision-3012",
-        "name": "Decision 3012",
-        "season": 7,
-        "number": 3,
-        "airdate": "2012-06-27",
-        "airtime": "22:00",
-        "airstamp": "2012-06-28T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144225.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144225.jpg"
-        },
-        "summary": "<p>Leela becomes campaign manager for a presidential candidate with a missing birth certificate.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49388"
-          }
-        }
-      },
-      {
-        "id": 49389,
-        "url": "http://www.tvmaze.com/episodes/49389/futurama-7x04-the-thief-of-baghead",
-        "name": "The Thief of Baghead",
-        "season": 7,
-        "number": 4,
-        "airdate": "2012-07-04",
-        "airtime": "22:00",
-        "airstamp": "2012-07-05T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144226.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144226.jpg"
-        },
-        "summary": "<p>Bender joins the paparazzi and attempts to photograph a famous actor whose face has never been seen.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49389"
-          }
-        }
-      },
-      {
-        "id": 49390,
-        "url": "http://www.tvmaze.com/episodes/49390/futurama-7x05-zapp-dingbat",
-        "name": "Zapp Dingbat",
-        "season": 7,
-        "number": 5,
-        "airdate": "2012-07-11",
-        "airtime": "22:00",
-        "airstamp": "2012-07-12T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144228.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144228.jpg"
-        },
-        "summary": "<p>Leela is horrified when her mother begins dating Zapp Brannigan.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49390"
-          }
-        }
-      },
-      {
-        "id": 49391,
-        "url": "http://www.tvmaze.com/episodes/49391/futurama-7x06-the-butterjunk-effect",
-        "name": "The Butterjunk Effect",
-        "season": 7,
-        "number": 6,
-        "airdate": "2012-07-18",
-        "airtime": "22:00",
-        "airstamp": "2012-07-19T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144231.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144231.jpg"
-        },
-        "summary": "<p>Amy and Leela join the Butterfly Derby and become addicted to the nutritional supplement Nectar.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49391"
-          }
-        }
-      },
-      {
-        "id": 49392,
-        "url": "http://www.tvmaze.com/episodes/49392/futurama-7x07-the-six-million-dollar-mon",
-        "name": "The Six Million Dollar Mon",
-        "season": 7,
-        "number": 7,
-        "airdate": "2012-07-25",
-        "airtime": "22:00",
-        "airstamp": "2012-07-26T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144232.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144232.jpg"
-        },
-        "summary": "<p>Fed up with his inferiority to machines, Hermes replaces his body parts with mechanical upgrades.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49392"
-          }
-        }
-      },
-      {
-        "id": 49393,
-        "url": "http://www.tvmaze.com/episodes/49393/futurama-7x08-fun-on-a-bun",
-        "name": "Fun on a Bun",
-        "season": 7,
-        "number": 8,
-        "airdate": "2012-08-01",
-        "airtime": "22:00",
-        "airstamp": "2012-08-02T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144233.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144233.jpg"
-        },
-        "summary": "<p>Fry is the victim of a horrific sausage-making accident.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49393"
-          }
-        }
-      },
-      {
-        "id": 49394,
-        "url": "http://www.tvmaze.com/episodes/49394/futurama-7x09-free-will-hunting",
-        "name": "Free Will Hunting",
-        "season": 7,
-        "number": 9,
-        "airdate": "2012-08-08",
-        "airtime": "22:00",
-        "airstamp": "2012-08-09T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144234.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144234.jpg"
-        },
-        "summary": "<p>Bender embarks on a quest for the meaning of life after discovering that robots lack free will.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49394"
-          }
-        }
-      },
-      {
-        "id": 49395,
-        "url": "http://www.tvmaze.com/episodes/49395/futurama-7x10-near-death-wish",
-        "name": "Near-Death Wish",
-        "season": 7,
-        "number": 10,
-        "airdate": "2012-08-15",
-        "airtime": "22:00",
-        "airstamp": "2012-08-16T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144235.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144235.jpg"
-        },
-        "summary": "<p>His parents' return from virtual retirement aboard the Near-Death Star disturbs the Professor.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49395"
-          }
-        }
-      },
-      {
-        "id": 49396,
-        "url": "http://www.tvmaze.com/episodes/49396/futurama-7x11-viva-mars-vegas",
-        "name": "Viva Mars Vegas",
-        "season": 7,
-        "number": 11,
-        "airdate": "2012-08-22",
-        "airtime": "22:00",
-        "airstamp": "2012-08-23T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144236.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144236.jpg"
-        },
-        "summary": "<p>The crew stages a casino heist to recover stolen property from the Robot Mafia.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49396"
-          }
-        }
-      },
-      {
-        "id": 49397,
-        "url": "http://www.tvmaze.com/episodes/49397/futurama-7x12-31st-century-fox",
-        "name": "31st Century Fox",
-        "season": 7,
-        "number": 12,
-        "airdate": "2012-08-29",
-        "airtime": "22:00",
-        "airstamp": "2012-08-30T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144237.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144237.jpg"
-        },
-        "summary": "<p>After saving a robotic fox from hunters, Bender becomes the hunted.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49397"
-          }
-        }
-      },
-      {
-        "id": 49398,
-        "url": "http://www.tvmaze.com/episodes/49398/futurama-7x13-naturama",
-        "name": "Naturama",
-        "season": 7,
-        "number": 13,
-        "airdate": "2012-08-29",
-        "airtime": "22:00",
-        "airstamp": "2012-08-30T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144238.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144238.jpg"
-        },
-        "summary": "<p>A nature documentary series focuses on groups of animals that strongly resemble the crew.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49398"
-          }
-        }
-      },
-      {
-        "id": 49399,
-        "url": "http://www.tvmaze.com/episodes/49399/futurama-7x14-2-d-blacktop",
-        "name": "2-D Blacktop",
-        "season": 7,
-        "number": 14,
-        "airdate": "2013-06-19",
-        "airtime": "22:00",
-        "airstamp": "2013-06-20T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144245.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144245.jpg"
-        },
-        "summary": "<p>Professor Farnsworth joins a gang of street-racing punks.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49399"
-          }
-        }
-      },
-      {
-        "id": 49400,
-        "url": "http://www.tvmaze.com/episodes/49400/futurama-7x15-fry-and-leelas-big-fling",
-        "name": "Fry and Leela's Big Fling",
-        "season": 7,
-        "number": 15,
-        "airdate": "2013-06-19",
-        "airtime": "22:00",
-        "airstamp": "2013-06-20T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144246.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144246.jpg"
-        },
-        "summary": "<p>Fry and Leela's romantic vacation goes disturbingly wrong. Title sequence tagline 'Watch it or die trying'.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49400"
-          }
-        }
-      },
-      {
-        "id": 49401,
-        "url": "http://www.tvmaze.com/episodes/49401/futurama-7x16-t-the-terrestrial",
-        "name": "T.: The Terrestrial",
-        "season": 7,
-        "number": 16,
-        "airdate": "2013-06-26",
-        "airtime": "22:00",
-        "airstamp": "2013-06-27T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144247.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144247.jpg"
-        },
-        "summary": "<p>After being marooned on a distant planet, Fry befriends a young monster.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49401"
-          }
-        }
-      },
-      {
-        "id": 49402,
-        "url": "http://www.tvmaze.com/episodes/49402/futurama-7x17-forty-percent-leadbelly",
-        "name": "Forty Percent Leadbelly",
-        "season": 7,
-        "number": 17,
-        "airdate": "2013-07-03",
-        "airtime": "22:00",
-        "airstamp": "2013-07-04T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144239.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144239.jpg"
-        },
-        "summary": "<p>At a maximum security prison, Bender meets a famous folk singer and attempts to make a copy of his precious guitar.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49402"
-          }
-        }
-      },
-      {
-        "id": 49403,
-        "url": "http://www.tvmaze.com/episodes/49403/futurama-7x18-the-inhuman-torch",
-        "name": "The Inhuman Torch",
-        "season": 7,
-        "number": 18,
-        "airdate": "2013-07-10",
-        "airtime": "22:00",
-        "airstamp": "2013-07-11T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144248.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144248.jpg"
-        },
-        "summary": "<p>Bender becomes a famous firefighter, but the crew suspects him of arson.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49403"
-          }
-        }
-      },
-      {
-        "id": 49404,
-        "url": "http://www.tvmaze.com/episodes/49404/futurama-7x19-saturday-morning-fun-pit",
-        "name": "Saturday Morning Fun Pit",
-        "season": 7,
-        "number": 19,
-        "airdate": "2013-07-17",
-        "airtime": "22:00",
-        "airstamp": "2013-07-18T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144249.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144249.jpg"
-        },
-        "summary": "<p>The Futurama gang stars in a trio of craptastic morning cartoons.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49404"
-          }
-        }
-      },
-      {
-        "id": 49405,
-        "url": "http://www.tvmaze.com/episodes/49405/futurama-7x20-calculon-20",
-        "name": "Calculon 2.0",
-        "season": 7,
-        "number": 20,
-        "airdate": "2013-07-24",
-        "airtime": "22:00",
-        "airstamp": "2013-07-25T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144240.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144240.jpg"
-        },
-        "summary": "<p>Bender goes grave robbing to bring his favorite actor back to life.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49405"
-          }
-        }
-      },
-      {
-        "id": 49406,
-        "url": "http://www.tvmaze.com/episodes/49406/futurama-7x21-assie-come-home",
-        "name": "Assie Come Home",
-        "season": 7,
-        "number": 21,
-        "airdate": "2013-07-31",
-        "airtime": "22:00",
-        "airstamp": "2013-08-01T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144241.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144241.jpg"
-        },
-        "summary": "<p>Bender searches the universe for his missing shiny, metal rear end.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49406"
-          }
-        }
-      },
-      {
-        "id": 49407,
-        "url": "http://www.tvmaze.com/episodes/49407/futurama-7x22-leela-and-the-genestalk",
-        "name": "Leela and the Genestalk",
-        "season": 7,
-        "number": 22,
-        "airdate": "2013-08-07",
-        "airtime": "22:00",
-        "airstamp": "2013-08-08T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/45/113501.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/45/113501.jpg"
-        },
-        "summary": "<p>A rare condition causes Leela to grow tentacles and she discovers a secret genetic engineering facility because of it.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49407"
-          }
-        }
-      },
-      {
-        "id": 49408,
-        "url": "http://www.tvmaze.com/episodes/49408/futurama-7x23-game-of-tones",
-        "name": "Game of Tones",
-        "season": 7,
-        "number": 23,
-        "airdate": "2013-08-14",
-        "airtime": "22:00",
-        "airstamp": "2013-08-15T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/45/113503.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/45/113503.jpg"
-        },
-        "summary": "<p>A strange alien melody is threatening to destroy the Earth and the meaning of it is hidden in Fry's dreams.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49408"
-          }
-        }
-      },
-      {
-        "id": 49409,
-        "url": "http://www.tvmaze.com/episodes/49409/futurama-7x24-murder-on-the-planet-express",
-        "name": "Murder on the Planet Express",
-        "season": 7,
-        "number": 24,
-        "airdate": "2013-08-21",
-        "airtime": "22:00",
-        "airstamp": "2013-08-22T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144242.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144242.jpg"
-        },
-        "summary": "<p>The crew becomes trapped aboard ship with a horrific alien creature.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49409"
-          }
-        }
-      },
-      {
-        "id": 49410,
-        "url": "http://www.tvmaze.com/episodes/49410/futurama-7x25-stench-and-stenchibility",
-        "name": "Stench and Stenchibility",
-        "season": 7,
-        "number": 25,
-        "airdate": "2013-08-28",
-        "airtime": "22:00",
-        "airstamp": "2013-08-29T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144243.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144243.jpg"
-        },
-        "summary": "<p>Dr. Zoidberg meets the love of his life while Bender squares off in a deadly tap-dancing competition.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49410"
-          }
-        }
-      },
-      {
-        "id": 49411,
-        "url": "http://www.tvmaze.com/episodes/49411/futurama-7x26-meanwhile",
-        "name": "Meanwhile",
-        "season": 7,
-        "number": 26,
-        "airdate": "2013-09-04",
-        "airtime": "22:00",
-        "airstamp": "2013-09-05T02:00:00+00:00",
-        "runtime": 30,
-        "image": {
-          "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/57/144244.jpg",
-          "original": "http://static.tvmaze.com/uploads/images/original_untouched/57/144244.jpg"
-        },
-        "summary": "<p>Fry enters an infinite loop when he proposes to Leela using a time travel button.</p>",
-        "_links": {
-          "self": {
-            "href": "http://api.tvmaze.com/episodes/49411"
-          }
-        }
-      }
-    ]
-  }
+  ]
 }
