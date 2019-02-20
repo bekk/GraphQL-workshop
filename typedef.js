@@ -2,7 +2,8 @@ const { gql } = require('apollo-server');
 
 const typeDefs = gql`
     type Query {
-        futurama: Futurama
+       getShow(id: Int): Futurama
+       futurama: Futurama
     }
 
     type Futurama {
@@ -18,6 +19,7 @@ const typeDefs = gql`
         image: Image
         summary: String
         episodes: [Episode]
+        episode(id: Int) : Episode
      }
      
      type Image {
