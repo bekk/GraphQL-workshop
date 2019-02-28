@@ -67,7 +67,7 @@ const Shows = () => (
 							return <span>{genre}</span>
 						})
 					}</p>
-					<a href={officialSite} target="_blank">Offisiell nettside</a>
+					<a href={officialSite} target="_blank" rel="noopener noreferrer">Offisiell nettside</a>
 					<img src={image.medium} alt=""/>
 					<p>{
 						episodes.map(episode => {
