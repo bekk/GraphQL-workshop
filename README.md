@@ -9,7 +9,7 @@
 
 `node GraphqlServer.js `
 
-Vipps, du har en server kjørende på [localhost](http://localhost:4000/)
+Vipps, du har en server kjørende på [localhost:4000](http://localhost:4000/)
 
 ## Frontend:
                                    
@@ -17,4 +17,4 @@ Vipps, du har en server kjørende på [localhost](http://localhost:4000/)
 
 `yarn && yarn start`
 
-Dobbelvipps, du har en klient kjørende på [localhost](http://localhost:3000)
+Dobbelvipps, du har en klient kjørende på [localhost:3000](http://localhost:3000)
