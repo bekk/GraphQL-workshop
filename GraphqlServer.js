@@ -1,6 +1,6 @@
 const fs = require('fs');
 const { ApolloServer } = require('apollo-server');
-const typeDefs = require('./typedef')
+const typeDefs = require('./typedef');
 
 const futurama = JSON.parse(fs.readFileSync('data/futurama.json', 'UTF-8'));
 const southpark = JSON.parse(fs.readFileSync('data/southpark.json', 'UTF-8'));
@@ -20,17 +20,17 @@ const resolvers = {
     },
     Show: {
         episode(obj, args, context, info) {
-            return findEpisode(args.id);;
+            return findEpisode(args.id);
         }
     }
-}
+};
 
 function findShow(id) {
     return data.shows.find(show => show.id === id);
 }
 
 function findEpisode(id) {
-    var episode;
+    let episode;
     data.shows.forEach(show => {
         if (show.episodes.find(episode => episode.id === id)) {
             episode = show.episodes.find(episode => episode.id === id);
