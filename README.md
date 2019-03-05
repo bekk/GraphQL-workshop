@@ -5,7 +5,7 @@
 
 ## Backend:
 
-`yarny`
+`yarn`
 
 `node GraphqlServer.js `
 
