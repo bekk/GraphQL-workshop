@@ -5,7 +5,7 @@
 
 ## Backend:
 
-`npm install`
+`yarny`
 
 `node GraphqlServer.js `
 
