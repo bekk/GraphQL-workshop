@@ -1,0 +1,79 @@
+.logo {
+	animation: logo-spin infinite 20s linear;
+	pointer-events: none;
+    width: 110px;
+}
+
+.header {
+	background-color: #282c34;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.shows {
+	margin: 2rem auto;
+	width: 960px;
+    border-collapse: collapse;
+}
+
+.shows tr:nth-child(even) {
+    background-color: #efefef;
+}
+
+.shows th {
+    text-align: left;
+    background-color: #282c34;
+    color: #fff;
+    padding: 0.4rem 1rem;
+    vertical-align: middle;
+}
+
+.shows td {
+    padding: 4px 1rem 0;
+    vertical-align: middle;
+}
+
+.shows td:not(.noclick) {
+    cursor: pointer;
+}
+
+.show {
+	padding: 1rem;
+	background-color: #fff;
+	width: 23%;
+}
+
+.show img {
+    cursor: pointer;
+}
+
+.show img.line {
+    height: 32px;
+}
+
+.show img.full {
+    position: absolute;
+    transition: opacity 0.5s ease-in;
+    opacity: 0;
+    height: 0;
+}
+
+.show img.full.view {
+    opacity: 1;
+    height: auto;
+}
+
+pre {
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+@keyframes logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
