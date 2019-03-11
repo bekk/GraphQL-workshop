@@ -1,16 +1,18 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Shows from './shows';
 import Show from './show';
 import Episode from './episode';
-import logo from "./logo.svg";
+import logo from './imdb.jpg';
 
 const App = () => {
-    return (
-        <BrowserRouter basename="/">
+	return (
+		<BrowserRouter basename="/">
             <>
                 <header className="header">
-                    <img src={logo} className="logo" alt="logo"/>
+					<div className="limit">
+                    	<img src={logo} className="logo" alt="logo"/>
+                    </div>
                 </header>
                 <main className="main">
                     <Switch>
@@ -20,8 +22,8 @@ const App = () => {
                     </Switch>
                 </main>
             </>
-        </BrowserRouter>
-    );
+		</BrowserRouter>
+	);
 };
 
 export default App;

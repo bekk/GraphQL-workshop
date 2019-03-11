@@ -37,6 +37,5 @@ export const GET_SHOW = gql`
                 }
             }
         }
-
     }
 `;

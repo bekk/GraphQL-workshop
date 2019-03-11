@@ -74,13 +74,13 @@ const ShowList = ({handleClickRow, handleClickLine, handleClickFull}) => {
                     {
                         id, name, type, status, premiered, officialSite, image
                     }) => (
-                    <tr key={id} className="show" onClick={(e) => handleClickRow(e, id)}>
+                    <tr key={id} onClick={(e) => handleClickRow(e, id)}>
                         <td>{name}</td>
                         <td>{type}</td>
                         <td className="notel">{status}</td>
                         <td>{premiered}</td>
                         <td className="noclick notel"><a href={officialSite} target="_blank" rel="noopener noreferrer">{officialSite}</a></td>
-                        <td className="noclick notel">
+                        <td className="noclick notel bilde">
                             <img src={image.medium} alt="" className="line" onClick={handleClickLine}/>
                             <img src={image.medium} alt="" className="full" onClick={handleClickFull}/>
                         </td>
