@@ -15,8 +15,7 @@ export const GET_SHOWS = gql`{
 }`;
 
 export const GET_SHOW = gql`{
-  query Show($id: Number!) {
-    show(id: $id) {
+  getShow(id: 431) {
         id,
         name,
         summary,
@@ -37,5 +36,5 @@ export const GET_SHOW = gql`{
 			}
         }
     }
-    }
-}`;
+}
+`;
