@@ -12,7 +12,7 @@ const data = { shows: [futurama, southpark, friends, got] };
 
 const resolvers = {
     Query: {
-        getShow(obj, args, context, info) {
+        show(obj, args, context, info) {
             //return find(data, {id: args.id})
             return findShow(args.id)
         },

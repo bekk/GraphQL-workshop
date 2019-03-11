@@ -2,7 +2,7 @@ const { gql } = require('apollo-server');
 
 const typeDefs = gql`
     type Query {
-       getShow(id: Int): Show
+       show(id: Int): Show
        shows: [Show]
     }
  

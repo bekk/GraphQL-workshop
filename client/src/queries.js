@@ -8,33 +8,35 @@ export const GET_SHOWS = gql`{
         status,
         premiered,
         officialSite,
-		image {
+        image {
             medium
         },
     }
 }`;
 
-export const GET_SHOW = gql`{
-  getShow(id: 431) {
-        id,
-        name,
-        summary,
-        type,
-        genres,
-        status,
-        premiered,
-        officialSite,
-        image {
-            medium
-        },
-        episodes {
-			name,
-			summary,
-			season,
-			image {
-				medium
-			}
+export const GET_SHOW = gql`
+    query GetShow($idNumber: Int!) {
+        show(id: $idNumber) {
+            id,
+            name,
+            summary,
+            type,
+            genres,
+            status,
+            premiered,
+            officialSite,
+            image {
+                medium
+            },
+            episodes {
+                name,
+                summary,
+                season,
+                image {
+                    medium
+                }
+            }
         }
+
     }
-}
 `;

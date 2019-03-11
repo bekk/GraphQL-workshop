@@ -18,9 +18,10 @@ class Show extends React.Component {
 export default withRouter(Show);
 
 const ShowList = ({ id }) => {
+    var idNumber = parseInt(id);
     console.log('id', id);
     return (
-        <Query query={GET_SHOW} variables={{ id }}>
+        <Query query={GET_SHOW} variables={{ idNumber }}>
             {({ loading, error, data }) => {
                 console.log('data', data);
                 if (loading) {
