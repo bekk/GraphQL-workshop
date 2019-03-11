@@ -3,7 +3,6 @@ import { Query } from 'react-apollo';
 import { GET_SHOWS } from './queries';
 import { withRouter } from 'react-router-dom';
 
-import logo from './logo.svg';
 import './shows.css';
 
 class Shows extends React.Component {
@@ -22,8 +21,6 @@ class Shows extends React.Component {
     };
 
     handleClickRow = (e, id) => {
-        console.log('this.props', this.props);
-        console.log('id', id);
         if (!e.target.classList.contains('noclick') && !e.target.parentElement.classList.contains('noclick')) {
             this.props.history.push('/show/' + id);
         }
@@ -32,52 +29,23 @@ class Shows extends React.Component {
     render () {
         return (
             <>
-                <header className="header">
-                    <img src={logo} className="logo" alt="logo"/>
-                </header>
                 <table className="shows">
                     <thead>
                         <tr>
                             <th>Navn</th>
                             <th>Type</th>
-                            <th>Status</th>
+                            <th className="notel">Status</th>
                             <th>Premiere</th>
-                            <th>Webside</th>
-                            <th>Bilde</th>
+                            <th className="notel">Webside</th>
+                            <th className="notel">Bilde</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <Query query={GET_SHOWS}>
-                            {({ loading, error, data }) => {
-                                if (loading) {
-                                    return <tr>
-                                        <td colSpan={6}>Laster...</td>
-                                    </tr>;
-                                }
-                                if (error) {
-                                    return <tr>
-                                        <td colSpan={6}>Feil!</td>
-                                    </tr>;
-                                }
-
-                                return data.shows.map((
-                                    {
-                                        id, name, type, status, premiered, officialSite, image
-                                    }) => (
-                                    <tr key={id} className="show" onClick={(e) => this.handleClickRow(e, id)}>
-                                        <td>{name}</td>
-                                        <td>{type}</td>
-                                        <td>{status}</td>
-                                        <td>{premiered}</td>
-                                        <td className="noclick"><a href={officialSite} target="_blank" rel="noopener noreferrer">{officialSite}</a></td>
-                                        <td className="noclick">
-                                            <img src={image.medium} alt="" className="line" onClick={this.handleClickLine}/>
-                                            <img src={image.medium} alt="" className="full" onClick={this.handleClickFull}/>
-                                        </td>
-                                    </tr>
-                                ));
-                            }}
-                        </Query>
+                        <ShowList
+                            handleClickRow={this.handleClickRow}
+                            handleClickLine={this.handleClickLine}
+                            handleClickFull={this.handleClickFull}
+                        />
                     </tbody>
                 </table>
             </>
@@ -86,3 +54,39 @@ class Shows extends React.Component {
 }
 
 export default withRouter(Shows);
+
+const ShowList = ({handleClickRow, handleClickLine, handleClickFull}) => {
+    return (
+        <Query query={GET_SHOWS}>
+            {({ loading, error, data }) => {
+                if (loading) {
+                    return <tr>
+                        <td colSpan={6}>Laster...</td>
+                    </tr>;
+                }
+                if (error) {
+                    return <tr>
+                        <td colSpan={6}>Feil!</td>
+                    </tr>;
+                }
+
+                return data.shows.map((
+                    {
+                        id, name, type, status, premiered, officialSite, image
+                    }) => (
+                    <tr key={id} className="show" onClick={(e) => handleClickRow(e, id)}>
+                        <td>{name}</td>
+                        <td>{type}</td>
+                        <td className="notel">{status}</td>
+                        <td>{premiered}</td>
+                        <td className="noclick notel"><a href={officialSite} target="_blank" rel="noopener noreferrer">{officialSite}</a></td>
+                        <td className="noclick notel">
+                            <img src={image.medium} alt="" className="line" onClick={handleClickLine}/>
+                            <img src={image.medium} alt="" className="full" onClick={handleClickFull}/>
+                        </td>
+                    </tr>
+                ));
+            }}
+        </Query>
+    )
+};

@@ -12,8 +12,7 @@
 }
 
 .shows {
-	margin: 2rem auto;
-	width: 960px;
+	width: 100%;
     border-collapse: collapse;
 }
 
@@ -30,8 +29,12 @@
 }
 
 .shows td {
-    padding: 4px 1rem 0;
+    padding: 0.4rem 1rem;
     vertical-align: middle;
+}
+
+.shows th.notel, .shows td.notel {
+    display: none;
 }
 
 .shows td:not(.noclick) {
@@ -76,4 +79,13 @@ pre {
 	to {
 		transform: rotate(360deg);
 	}
+}
+
+@media (min-width: 960px) {
+    .shows th.notel, .shows td.notel {
+        display: table-cell;
+    }
+    .shows th, .shows td {
+        padding: 4px 1rem 0;
+    }
 }

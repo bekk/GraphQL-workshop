@@ -3,15 +3,19 @@
 }
 
 body {
-	margin: 0;
-	padding: 0;
-	font-family: Roboto, Oxygen, Ubuntu, Cantarell, Helvetica, sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.main {
+    margin: 1rem 0;
 }
 
 code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, monospace;
 }
 
 a {
@@ -21,4 +25,11 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+@media (min-width: 960px) {
+    .main {
+        width: 960px;
+        margin: 2rem auto;
+    }
 }
