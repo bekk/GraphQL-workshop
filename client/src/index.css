@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html, body {
+	height: 100%;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -9,6 +13,16 @@ body {
 	font-size: 18px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+	background: linear-gradient(top, #b3b3b0 0%, #e3e2dd 500px);
+	background-color: #e3e2dd;
+	background-repeat: no-repeat;
+}
+
+.wrapper {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-rows: 8rem auto 1rem;
+	height: 100%;
 }
 
 .logo {
@@ -25,7 +39,7 @@ body {
 }
 
 .limit {
-	width: 960px;
+	width: 1000px;
 	margin: 0 auto;
 }
 
@@ -46,9 +60,8 @@ a:hover {
     text-decoration: underline;
 }
 
-@media (min-width: 960px) {
+@media (min-width: 1024px) {
     .main {
-        width: 960px;
         margin: 2rem auto;
     }
 }

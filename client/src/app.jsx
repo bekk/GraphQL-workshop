@@ -15,12 +15,15 @@ const App = () => {
                     </div>
                 </header>
                 <main className="main">
-                    <Switch>
-                        <Route path="/episode/:id" component={Episode}/>
-                        <Route path="/show/:id" component={Show}/>
-                        <Route path="/" component={Shows}/>
-                    </Switch>
+					<div className="limit">
+						<Switch>
+							<Route path="/episode/:id" component={Episode}/>
+							<Route path="/show/:id" component={Show}/>
+							<Route path="/" component={Shows}/>
+						</Switch>
+					</div>
                 </main>
+				<footer></footer>
             </>
 		</BrowserRouter>
 	);

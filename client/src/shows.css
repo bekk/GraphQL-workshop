@@ -1,6 +1,7 @@
 .shows {
 	width: 100%;
     border-collapse: collapse;
+	box-shadow: 0 0 8px rgba(0,0,0,0.7);
 }
 
 .shows tr img {
