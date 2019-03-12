@@ -22,7 +22,10 @@ class Show extends React.Component {
 
 					return (
 						<div key={data.show.id} className="show">
-							<h1>{data.show.name} ({data.show.premiered.split('-')[0]})</h1>
+							<h1>
+								{data.show.name}
+								<span className="aarstall">({data.show.premiered.split('-')[0]})</span>
+							</h1>
 							<div>{data.show.type}</div>
 							<div>{data.show.status}</div>
 							<div>{data.show.premiered}</div>

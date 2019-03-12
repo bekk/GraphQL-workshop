@@ -9,13 +9,11 @@ html, body {
 body {
     margin: 0;
     padding: 0;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, Helvetica, sans-serif;
+    font-family: Arial Helvetica, sans-serif;
 	font-size: 18px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-	background: linear-gradient(top, #b3b3b0 0%, #e3e2dd 500px);
-	background-color: #e3e2dd;
-	background-repeat: no-repeat;
+	background: #e3e2dd linear-gradient(top, #b3b3b0 0%, #e3e2dd 500px) no-repeat;
 }
 
 .wrapper {
@@ -36,6 +34,11 @@ body {
 	align-items: center;
 	padding: 1rem;
 	margin-top: 2rem;
+	z-index: 100;
+}
+
+.header .limit {
+	padding-left: 2rem;
 }
 
 .limit {

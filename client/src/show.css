@@ -1,7 +1,8 @@
 .show {
-	padding: 1rem;
+	padding: 160px 2rem 2rem;
 	background-color: #333;
 	box-shadow: 0 0 8px rgba(0,0,0,0.7);
+	margin-top: -180px;
 }
 
 .show * {
@@ -9,7 +10,14 @@
 }
 
 .show h1 {
+	font-size: 36px;
+	font-weight: normal;
 	margin: 0 0 1rem;
+}
+
+.show .aarstall {
+	font-size: 25px;
+	color: silver;
 }
 
 @keyframes logo-spin {
