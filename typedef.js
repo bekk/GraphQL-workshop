@@ -25,7 +25,7 @@ const typeDefs = gql`
         summary: String
         episodes: [Episode]
         episode(id: Int) : Episode
-        comment: String
+        comments: [String]
     }
 
     type Image {

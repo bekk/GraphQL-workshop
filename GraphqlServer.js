@@ -26,7 +26,7 @@ const resolvers = {
     Mutation: {
         createComment(obj, args, context, info) {
             let show = findShow(args.showId);
-            show.comment = args.comment;
+            show.comments ? show.comments.push(args.comment) : show.comments = [args.comment];
             return show;
         }
     }
