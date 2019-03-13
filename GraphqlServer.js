@@ -22,6 +22,13 @@ const resolvers = {
         episode(obj, args, context, info) {
             return findEpisode(args.id);
         }
+    },
+    Mutation: {
+        createComment(obj, args, context, info) {
+            let show = findShow(args.showId);
+            show.comment = args.comment;
+            return show;
+        }
     }
 };
 

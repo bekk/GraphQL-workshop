@@ -2,11 +2,15 @@ const { gql } = require('apollo-server');
 
 const typeDefs = gql`
     type Query {
-       show(id: Int): Show
-       shows: [Show]
-       episodes(season: Int): [Episode]
+        show(id: Int): Show
+        shows: [Show]
+        episodes(season: Int): [Episode]
     }
- 
+
+    type Mutation {
+        createComment(showId: Int ,comment: String): Show
+    }
+
     type Show {
         id: Int
         url: String
@@ -21,14 +25,15 @@ const typeDefs = gql`
         summary: String
         episodes: [Episode]
         episode(id: Int) : Episode
-     }
-     
-     type Image {
+        comment: String
+    }
+
+    type Image {
         medium: String
         original: String
-     }
+    }
 
-     type Episode {
+    type Episode {
         id: Int
         url: String
         name: String
@@ -37,7 +42,7 @@ const typeDefs = gql`
         number: Int
         image: Image
         summary: String
-     }
+    }
 `;
 
 
