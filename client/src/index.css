@@ -13,7 +13,7 @@ body {
 	font-size: 18px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-	background: #e3e2dd linear-gradient(top, #b3b3b0 0%, #e3e2dd 500px) no-repeat;
+	background: #e3e2dd linear-gradient(to bottom, #b3b3b0 0%, #e3e2dd 500px) no-repeat;
 }
 
 .wrapper {

@@ -32,6 +32,7 @@ export const GET_SHOW = gql`
                 name,
                 summary,
                 season,
+                airdate,
                 image {
                     medium
                 }

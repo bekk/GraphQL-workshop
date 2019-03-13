@@ -5,19 +5,61 @@
 	margin-top: -180px;
 }
 
-.show * {
-	color: #fff;
-}
-
 .show h1 {
 	font-size: 36px;
 	font-weight: normal;
-	margin: 0 0 1rem;
+	margin: 0 0 0.5rem;
+    color: #fff;
 }
 
 .show .aarstall {
 	font-size: 25px;
 	color: silver;
+}
+
+.show .subtext {
+    display: inline-block;
+    font-size: 12px;
+    color: silver;
+    margin-bottom: 1rem;
+    border-top: 1px solid #878787;
+    border-bottom: 1px solid #878787;
+}
+
+.show .subtext a {
+    color: silver;
+}
+
+.show .content {
+    display: flex;
+}
+
+.show .content img {
+    margin: 0 1.4rem 1rem 0;
+}
+
+.show .summary {
+    color: #fff;
+    display: inline-block;
+    margin: 0;
+    line-height: 1.5rem;
+}
+
+.show .seasons {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 150px;
+    width: 80%;
+}
+
+.show .seasons a {
+    color: #fff;
+    margin: 0.25rem 0;
+}
+
+.show .summary p:first-child {
+    margin-top: 0;
 }
 
 @keyframes logo-spin {

@@ -32,6 +32,7 @@ const typeDefs = gql`
         url: String
         name: String
         season: Int
+        airdate: String
         number: Int
         image: Image
         summary: String
