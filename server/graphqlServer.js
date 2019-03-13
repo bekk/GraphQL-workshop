@@ -18,11 +18,6 @@ const resolvers = {
         },
         shows: () => data.shows,
     },
-    Show: {
-        episode(obj, args, context, info) {
-            return findEpisode(args.id);
-        }
-    },
     Mutation: {
         createComment(obj, args, context, info) {
             let show = findShow(args.showId);
