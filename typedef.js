@@ -4,7 +4,6 @@ const typeDefs = gql`
     type Query {
         show(id: Int): Show
         shows: [Show]
-        episodes(season: Int): [Episode]
     }
 
     type Mutation {
@@ -28,7 +27,7 @@ const typeDefs = gql`
         comments: [String]
     }
 
-    type Image {
+     type Image {
         medium: String
         original: String
     }
