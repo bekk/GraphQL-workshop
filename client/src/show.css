@@ -46,16 +46,17 @@
 
 .show .seasons {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    height: 120px;
     width: 70%;
 }
 
 .show .seasons a {
+    display: block;
     font-size: 15px;
     color: #fff;
     margin: 0.1rem 0;
+    width: 5rem;
 }
 
 .show .summary p:first-child {

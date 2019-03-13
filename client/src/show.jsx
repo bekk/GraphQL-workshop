@@ -35,7 +35,9 @@ class Show extends React.Component {
                                     <span className="aarstall">({data.show.premiered.split('-')[0]})</span>
                                 </h1>
                                 <div className="content">
-                                    <img src={data.show.image.medium} alt=""/>
+                                    <div>
+                                        <img src={data.show.image.medium} alt=""/>
+                                    </div>
                                     <div>
                                         <div className="subtext">
                                             <span>{data.show.type}</span>
