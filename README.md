@@ -48,6 +48,7 @@ Her ser du at det vises en liste med tvserier og deres navn.
 ##### typedef.js henter bare ut id og navn på tvseriene. La oss utvide denne.
 
 0: Utvid typedef til å hente Type, Status, Premieredato og webside.
+
 0: Sjekk i GraphiQL at du kan få hentet ut de nye feltene.
 
 ##### Når vi først er i gang med utvidelser i typedef kan vi også ta med forsidebilde på tvseriene
@@ -80,15 +81,18 @@ Her kunne det kanskje vært gøy å vist description-feltet fra json-objektene.
 
 6: Utvide typedef til å hente episoder innenfor en tvserie. Også her er det nok lurt å legge dette i en egen type.
 
-##### Tv-seriene som ligger sjekket inn er kanskje ikke din favorittserie. Det hadde vel vært gøy å jobbe videre med noe som er ditt hjerte nærmere? Kanskje Tore på Sporet er en favoritt?
+##### Tv-seriene som ligger sjekket inn er kanskje ikke din favorittserie. Det hadde vel vært gøy å jobbe videre med noe som er ditt hjerte nærmere? Kanskje Home and Away er en favoritt?
 
 7: Legg til en ny tvserie i datasettet. 
 
 ``` 
   Tips: 
   - http://www.tvmaze.com/api#show-lookup - benytt IMDB-datasett
+  -> Eksemepel: http://api.tvmaze.com/lookup/shows?imdb=tt0094481
   - legg til ?embed=episodes for å få med alle episodene.
+  -> http://api.tvmaze.com/shows/5419?embed=episodes
   - Fjern "_embedded" fra datasettet slik at det stemmer overens med strukturen til de andre tv-seriene) 
+  - Lagre json og legg den til i innlastingen i GraphqlServer.js
 ```
 
 ##### Frem til nå har vi bare gjort query på datasettet, men en hver side med respekt for seg selv må jo ha et kommentarfelt! I GraphQL er alle skriv-operasjoner såkalte `Mutations`
@@ -100,7 +104,7 @@ Her kunne det kanskje vært gøy å vist description-feltet fra json-objektene.
 
 11: Sjekk i GraphiQL at du har mulighet til å kjøre den nye mutasjonen, og at dersom du henter ut data i ettertid så er kommentarene lagret sammen med tv-serien.
 
-#####Nå som backenden er klar for kommentarer må vi jo utvide client-biten igjen!
+##### Nå som backenden er klar for kommentarer må vi jo utvide client-biten igjen!
 
 12: Legg til et kommentarfelt i tilknyttning til hvert show som kjører GraphQL-spørring mot backend og lagrer kommentaren.
 
