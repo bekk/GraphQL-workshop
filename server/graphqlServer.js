@@ -2,18 +2,18 @@ const fs = require('fs');
 const { ApolloServer } = require('apollo-server');
 const typeDefs = require('./typedef');
 
-const futurama = JSON.parse(fs.readFileSync('data/futurama.json', 'UTF-8'));
-const southpark = JSON.parse(fs.readFileSync('data/southpark.json', 'UTF-8'));
-const friends = JSON.parse(fs.readFileSync('data/friends.json', 'UTF-8'));
-const got = JSON.parse(fs.readFileSync('data/gameOfThrones.json', 'UTF-8'));
+const dataFolder = 'data/';
+const data = { shows: []}
 
-
-const data = { shows: [futurama, southpark, friends, got] };
+fs.readdir(dataFolder, (err, files) => {
+    files.forEach(file => {
+        data.shows.push(JSON.parse(fs.readFileSync('data/'+file, 'UTF-8')));
+    });
+});
 
 const resolvers = {
     Query: {
         show(obj, args, context, info) {
-            //return find(data, {id: args.id})
             return findShow(args.id)
         },
         shows: () => data.shows,

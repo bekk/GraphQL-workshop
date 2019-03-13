@@ -29,6 +29,7 @@
     "express": "^4.16.4",
     "graphql": "^14.1.1",
     "graphql-schema-from-json": "^0.0.3",
-    "html-react-parser": "^0.6.2"
+    "html-react-parser": "^0.6.2",
+    "yarn": "^1.13.0"
   }
 }
