@@ -1,7 +1,7 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
-import { Query } from 'react-apollo';
-import { GET_SHOW } from './queries';
+import { Mutation, Query } from 'react-apollo';
+import { CREATE_COMMENT, GET_SHOW } from './queries';
 import Parser from 'html-react-parser';
 
 import './show.css';
@@ -9,10 +9,6 @@ import './show.css';
 class Show extends React.Component {
     render() {
         const idNumber = parseInt(this.props.match.params.id);
-
-        const showSeasons = (e, season) => {
-
-        };
 
         return (
             <Query query={GET_SHOW} variables={{ idNumber }}>
@@ -55,14 +51,27 @@ class Show extends React.Component {
                                         <div className="seasons">
                                             {distinctSeasons.map(season => {
                                                 return (
-                                                    <a href="#" onClick={(e) => showSeasons(e, season)} key={season}>Season {season}</a>
+                                                    <span key={season}>Season {season}</span>
                                                 )
                                             })}
                                         </div>
                                     </div>
                                 </div>
+                                <div className="comments">
+                                    <h2>Comments:</h2>
+                                    <ul>
+                                    {data.show.comments && data.show.comments.map((comment, index) => {
+                                        return (
+                                            <li className="comment" key={index}>
+                                                {comment}
+                                            </li>
+                                        )
+                                    })}
+                                    </ul>
+                                </div>
                             </div>
-                            <button onClick={() => window.history.back()}>Back</button>
+                            <button className="tilbake" onClick={() => window.history.back()}>Back</button>
+                            <CreateComment showId={data.show.id}/>
                         </>
                     );
                 }}
@@ -72,3 +81,28 @@ class Show extends React.Component {
 }
 
 export default withRouter(Show);
+
+
+const CreateComment = ({showId}) => {
+    let textarea;
+
+    return (
+        <Mutation mutation={CREATE_COMMENT}>
+            {(createComment) => (
+                <form
+                    onSubmit={e => {
+                        e.preventDefault();
+                        createComment({ variables: { showId: showId,  comment: textarea.value } });
+                        textarea.value = "";
+                    }}
+                >
+                    <textarea rows={3} cols={30} ref={node => {
+                        textarea = node
+                    }}
+                    />
+                    <button type="submit">Add Comment</button>
+                </form>
+            )}
+        </Mutation>
+    );
+};
