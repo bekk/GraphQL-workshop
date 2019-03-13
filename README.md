@@ -47,7 +47,7 @@ Vi har også laget et enkelt frontend-skall som gjør spørringer mot GraphQL-se
 Her ser du at det vises en liste med tvserier og deres navn.
 
 
-#### La oss starte litt på server-siden. typedef.js henter bare ut id og navn på tvseriene
+##### La oss starte litt på server-siden. typedef.js henter bare ut id og navn på tvseriene
 
 *Oppgave 1:* Utvid typedef til å hente Type, Summary, Status, Premieredato og webside. 
 
