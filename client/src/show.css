@@ -21,6 +21,7 @@
     font-size: 12px;
     color: silver;
     margin-bottom: 1rem;
+    padding: 1px 0;
     border-top: 1px solid #878787;
     border-bottom: 1px solid #878787;
 }
@@ -34,7 +35,7 @@
 }
 
 .show .content img {
-    margin: 3px 1.4rem 1rem 0;
+    margin: 2px 1.4rem 1rem 0;
 }
 
 .show .summary {

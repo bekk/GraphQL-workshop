@@ -4,6 +4,7 @@ const typeDefs = gql`
     type Query {
        show(id: Int): Show
        shows: [Show]
+       episodes(season: Int): [Episode]
     }
  
     type Show {

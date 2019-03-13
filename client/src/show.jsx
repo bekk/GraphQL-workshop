@@ -10,14 +10,13 @@ class Show extends React.Component {
     render() {
         const idNumber = parseInt(this.props.match.params.id);
 
-        const showSeasons = (e) => {
+        const showSeasons = (e, season) => {
 
         };
 
         return (
             <Query query={GET_SHOW} variables={{ idNumber }}>
                 {({ loading, error, data }) => {
-                    console.log('data', data);
                     if (loading) {
                         return <div>Laster...</div>;
                     }
@@ -47,13 +46,17 @@ class Show extends React.Component {
                                             <span>{data.show.genres.join(' | ')}</span>
                                             {' | '}
                                             <span className="lenke">
-                                    <a href={data.show.officialSite} target="_blank" rel="noopener noreferrer">{data.show.officialSite}</a>
-                                </span>
+                                                <a href={data.show.officialSite} target="_blank" rel="noopener noreferrer">
+                                                    {data.show.officialSite}
+                                                </a>
+                                            </span>
                                         </div>
                                         <div className="summary">{Parser(data.show.summary)}</div>
                                         <div className="seasons">
                                             {distinctSeasons.map(season => {
-                                                return <a href="#" onClick={showSeasons} key={season}>Season {season}</a>
+                                                return (
+                                                    <a href="#" onClick={(e) => showSeasons(e, season)} key={season}>Season {season}</a>
+                                                )
                                             })}
                                         </div>
                                     </div>
