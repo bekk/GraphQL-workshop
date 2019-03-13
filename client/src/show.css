@@ -11,6 +11,13 @@
     color: #fff;
 }
 
+.show h2 {
+    font-size: 24px;
+    font-weight: normal;
+    color: #fff;
+    margin: 0 0 0.5rem;
+}
+
 .show .aarstall {
 	font-size: 25px;
 	color: silver;
@@ -45,6 +52,10 @@
     line-height: 1.5rem;
 }
 
+.show .summary p:first-child {
+    margin-top: 0;
+}
+
 .show .seasons {
     display: flex;
     flex-direction: row;
@@ -52,7 +63,7 @@
     width: 70%;
 }
 
-.show .seasons a {
+.show .seasons span {
     display: block;
     font-size: 15px;
     color: #fff;
@@ -60,8 +71,14 @@
     width: 5rem;
 }
 
-.show .summary p:first-child {
-    margin-top: 0;
+.show .comments ul {
+    padding-left: 1.5rem;
+}
+
+.show .comment {
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 0.5rem;
 }
 
 button {
@@ -73,7 +90,23 @@ button {
     font-weight: bold;
     border: 2px solid #aaa;
     cursor: pointer;
+}
+
+button.tilbake {
     float: right;
+}
+
+form {
+    display: flex;
+    align-items: flex-start;
+}
+
+textarea {
+    padding: 0.5rem 0.5rem;
+    font-size: 20px;
+    border: 2px solid #aaa;
+    border-radius: 8px;
+    margin: 1rem 1rem 0 0;
 }
 
 @keyframes logo-spin {
