@@ -71,6 +71,7 @@ button {
     font-weight: bold;
     border: 2px solid #aaa;
     cursor: pointer;
+    float: right;
 }
 
 @keyframes logo-spin {
