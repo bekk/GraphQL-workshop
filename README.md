@@ -75,11 +75,28 @@ Tips:
 
 *Oppgave 3:* Utvid frontend - shows.jsx - til å skrive ut informasjon om type, status og premieredato, samt vis et lite forsidebilde av hver enkelt tv-serie.
 
+```
+Tips:
+- Det ligger vedlagt en css, så om du skriver markup i henhold til eksemplene i /markup-foldern vil du få litt gratis styling-hjelp.
+- Query fra react-apollo benyttes for å kjøre en query.
+- Queries plasseres i queries.js
+```
+
 ***
 
 ##### Slik det er nå har vi en query - Shows - som henter alle tvseriene, men det er jo ikke alltid man ønsker å hente alle tvseriene. 
 
-*Oppgave 4:* Utvid resolvers til å kunne hente en enkel tv-serie basert på tv-seriens id.
+*Oppgave 4:* Utvid typedef og resolvers til å kunne hente en enkel tv-serie basert på tv-seriens id.
+
+```
+Tips:
+- Typedef utvides med en ny query med queryparameter
+- I resolvers bør du bruke standard metodesignatur:
+ show(obj, args, context, info) {
+    // Implementer henting av show basert på input i args.
+ },
+
+```
 
 Sjekk i graphiQL at den nye resolveren din fungerer som planlagt.
 
@@ -100,7 +117,10 @@ Tips:
 - Også her er det nok lurt å legge dette i en egen type.
 ```
 
+Som vanlig, ta en titt i GraphiQL for å se at du har fått det riktig.
+
 ***
+
 
 ##### Tv-seriene som ligger sjekket inn er kanskje ikke din favorittserie. Det hadde vel vært gøy å jobbe videre med noe som er ditt hjerte nærmere? Kanskje Tore på Sporet eller Home and Away er en favoritt?
 
@@ -113,7 +133,7 @@ Tips:
   - legg til ?embed=episodes på urlén du blir redirectet til for å få med alle episodene.
   -> Eksempel: http://api.tvmaze.com/shows/5419?embed=episodes
   - Fjern "_embedded"-noden fra datasettet slik at det stemmer overens med strukturen til de andre tv-seriene) 
-  - Lagre json og legg den til i innlastingen i graphqlServer.js
+  - Lagre json og legg den til i data-directory i servern
 ```
 
 ***
@@ -124,13 +144,42 @@ Tips:
 
 ***
 
-*Oppgave 9:* Utvide typedef med en metode for å legge en kommentar til en tvserie (hint: alle resolver-metoder har samme 4 argumenter)
+*Oppgave 9:* Utvide typedef med en metode for å legge en kommentar til en tvserie.
+ ```
+ Hint: 
+ - Metoden trenger 2 argumenter, hvilken tvserie det gjelder og selve kommentaren.
+ ```
 
 ***
 
-*Oppgave 10:* Utvid resovlvers med den nye metoden fra forrige punkt og gjør nødvendig endring på datasettet (Du trenger ikke å lagre endringene til disk, for enkelhets skyld gjør vi det i minnet på data-objetet)
+*Oppgave 10:* Utvid resovlvers med den nye metoden fra forrige punkt og gjør nødvendig endring på datasettet. 
+
+(Du trenger ikke å lagre endringene til disk, for enkelhets skyld gjør vi det i minnet på data-objetet)
+
+
+```
+Hint:
+- Her må du legge til Mutations på toppnivå i resolvers
+- Alle resolver-metoder har de samme 4 standard argumenter
+- Inngenfor Mutations må du lage en ny metode innenfor denne som legger kommentar på riktig tv-serie
+```
 
 Sjekk i GraphiQL at du har mulighet til å kjøre den nye mutasjonen, og at dersom du henter ut data i ettertid så er kommentarene lagret sammen med tv-serien.
+
+```
+Mutationen vil trolig ligne noe på dette:
+
+mutation {
+  createComment(showId: 112, comment:"ff") {
+    id
+    name
+    comments
+  }
+}
+
+Innholdet i metoden er hva den skal returnere som resultat av spørringen.
+
+```
 
 ***
 
@@ -144,6 +193,12 @@ Tips:
 
 ```
 ***
+
+*Oppgave 12:* Utvid typedef og resolver for å kunne hente en enkelt episode basert på id
+```
+Tips:
+- Dette blir en spørring innenfor et Show, derfor vil denne resolveren ikke ligge inni Query eller Mutation men innenfor Show.
+```
 
 ### Åpen og noe mer avansert oppgave
 
