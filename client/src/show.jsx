@@ -82,7 +82,6 @@ class Show extends React.Component {
 
 export default withRouter(Show);
 
-
 const CreateComment = ({showId}) => {
     let textarea;
 
