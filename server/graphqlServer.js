@@ -18,11 +18,6 @@ const resolvers = {
         },
         shows: () => data.shows,
     },
-    Show: {
-        episode(obj, args, context, info) {
-            return findEpisode(args.id);
-        }
-    },
     Mutation: {
         createComment(obj, args, context, info) {
             let show = findShow(args.showId);
@@ -34,16 +29,6 @@ const resolvers = {
 
 function findShow(id) {
     return data.shows.find(show => show.id === id);
-}
-
-function findEpisode(id) {
-    let episode;
-    data.shows.forEach(show => {
-        if (show.episodes.find(episode => episode.id === id)) {
-            episode = show.episodes.find(episode => episode.id === id);
-        }
-    });
-    return episode;
 }
 
 const server = new ApolloServer({
