@@ -8,6 +8,7 @@ import './shows.css';
 class Shows extends React.Component {
 
     handleClickLine = (e) => {
+        this.handleClickFull();
         const full = e.target.parentElement.querySelector('.full');
         if (full) {
             full.classList.add('view');
@@ -16,8 +17,11 @@ class Shows extends React.Component {
         }
     };
 
-    handleClickFull = (e) => {
-        e.target.classList.remove('view');
+    handleClickFull = () => {
+        const expanded = document.querySelectorAll('img.full');
+        expanded.forEach(img => {
+            img.classList.remove('view');
+        });
     };
 
     handleClickRow = (e, id) => {
