@@ -118,6 +118,7 @@ Tips:
 ```
 
 Som vanlig, ta en titt i GraphiQL for å se at du har fått det riktig.
+Gjør deretter endringer i show.jsx for å vise sesongene.
 
 ***
 
@@ -141,6 +142,7 @@ Som vanlig, ta en titt i GraphiQL for å se at du har fått det riktig.
 ##### Frem til nå har vi bare gjort query på datasettet, men en hver side med respekt for seg selv må jo ha et kommentarfelt! I GraphQL er alle skriv-operasjoner såkalte `Mutations`
 
 *Oppgave 8:* Utvide typedef og gi hver tv-serie mulighet til å ha en liste med kommentarer.
+Gjør nødvendige endringer i show.jsx for å vise kommentarene.
 
 ***
 
