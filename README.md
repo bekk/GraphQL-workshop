@@ -46,6 +46,10 @@ du kan også hente navnet på tv-serien.
 Vi har også laget et enkelt frontend-skall som gjør spørringer mot GraphQL-serveren. Denne kjører på [localhost:3000](http://localhost:3000).
 Her ser du at det vises en liste med tvserier og deres navn.
 
+For alle oppgavene kan det være nyttig å ta en titt i mappen markup.
+Html-filene inneholder strukturen som css-en vi har lagt ved mapper til.
+Dette vil gi noen hint på hvordan du bør/kan gå frem, og du slipper ikke bruke tid på styling.
+
 ***
 
 ##### La oss starte litt på server-siden. typedef.js henter bare ut id og navn på tvseriene
@@ -90,9 +94,11 @@ Tips:
 
 ```
 Tips:
-- Typedef utvides med en ny query med queryparameter
+- Typedef utvides med en ny query med queryparameter, syntax er på form:
+  navnPåQuery(dittQueryParameter: Int): DinReturVerdi
+  
 - I resolvers bør du bruke standard metodesignatur:
- show(obj, args, context, info) {
+ navnPåQuery(obj, args, context, info) {
     // Implementer henting av show basert på input i args.
  },
 
@@ -105,7 +111,8 @@ Sjekk i graphiQL at den nye resolveren din fungerer som planlagt.
 ##### Nå som vi kan hente enkelt-serie kan vi igjen utvide vår webapp til å vise enkelt-tvserie
 
 *Oppgave 5:* Gjør nødvendige endringer i show.jsx slik at det kan hentes informasjon om tvserien.
-Her passer det for eksempel fint å bruke summary og det største bildeformatet.
+
+Her passer det for eksempel fint å bruke summary og det største bildeformatet. Legg lenke i shows.jsx til show.jsx
 
 ***
 
@@ -118,6 +125,7 @@ Tips:
 ```
 
 Som vanlig, ta en titt i GraphiQL for å se at du har fått det riktig.
+Gjør deretter endringer i show.jsx for å vise sesongene.
 
 ***
 
@@ -142,6 +150,8 @@ Som vanlig, ta en titt i GraphiQL for å se at du har fått det riktig.
 
 *Oppgave 8:* Utvide typedef og gi hver tv-serie mulighet til å ha en liste med kommentarer.
 
+Gjør nødvendige endringer i show.jsx for å vise kommentarene.
+
 ***
 
 *Oppgave 9:* Utvide typedef med en metode for å legge en kommentar til en tvserie.
@@ -161,7 +171,7 @@ Som vanlig, ta en titt i GraphiQL for å se at du har fått det riktig.
 Hint:
 - Her må du legge til Mutations på toppnivå i resolvers
 - Alle resolver-metoder har de samme 4 standard argumenter
-- Inngenfor Mutations må du lage en ny metode innenfor denne som legger kommentar på riktig tv-serie
+- Innenfor Mutations må du lage en ny metode som legger kommentar på riktig tv-serie
 ```
 
 Sjekk i GraphiQL at du har mulighet til å kjøre den nye mutasjonen, og at dersom du henter ut data i ettertid så er kommentarene lagret sammen med tv-serien.
