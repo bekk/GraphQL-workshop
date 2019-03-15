@@ -37,7 +37,11 @@ class Shows extends React.Component {
                     <thead>
                         <tr>
                             <th>Navn</th>
+                            <th>Type</th>
+                            <th className="notel">Status</th>
+                            <th>Premiere</th>
                             <th className="notel">Webside</th>
+                            <th className="notel">Bilde</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -55,7 +59,7 @@ class Shows extends React.Component {
 
 export default withRouter(Shows);
 
-const ShowList = () => {
+const ShowList = ({handleClickRow, handleClickLine, handleClickFull}) => {
     return (
         <Query query={GET_SHOWS}>
             {({ loading, error, data }) => {
@@ -72,11 +76,18 @@ const ShowList = () => {
 
                 return data.shows.map((
                     {
-                        id, name, officialSite
+                        id, name, type, status, premiered, officialSite, image
                     }) => (
-                    <tr key={id}>
+                    <tr key={id} onClick={(e) => handleClickRow(e, id)}>
                         <td>{name}</td>
+                        <td>{type}</td>
+                        <td className="notel">{status}</td>
+                        <td>{premiered}</td>
                         <td className="noclick notel"><a href={officialSite} target="_blank" rel="noopener noreferrer">{officialSite}</a></td>
+                        <td className="noclick notel bilde">
+                            <img src={image.medium} alt="" className="line" onClick={handleClickLine}/>
+                            <img src={image.medium} alt="" className="full" onClick={handleClickFull}/>
+                        </td>
                     </tr>
                 ));
             }}
