@@ -37,7 +37,6 @@ class Shows extends React.Component {
                     <thead>
                         <tr>
                             <th>Navn</th>
-                            <th className="notel">Webside</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -76,7 +75,6 @@ const ShowList = () => {
                     }) => (
                     <tr key={id}>
                         <td>{name}</td>
-                        <td className="noclick notel"><a href={officialSite} target="_blank" rel="noopener noreferrer">{officialSite}</a></td>
                     </tr>
                 ));
             }}
