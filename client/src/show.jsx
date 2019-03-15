@@ -57,6 +57,18 @@ class Show extends React.Component {
                                         </div>
                                     </div>
                                 </div>
+                                <div className="comments">
+                                    <h2>Comments:</h2>
+                                    <ul>
+                                    {data.show.comments && data.show.comments.map((comment, index) => {
+                                        return (
+                                            <li className="comment" key={index}>
+                                                {comment}
+                                            </li>
+                                        )
+                                    })}
+                                    </ul>
+                                </div>
                             </div>
                             <button className="tilbake" onClick={() => window.history.back()}>Back</button>
                         </>
