@@ -3,7 +3,7 @@ const { ApolloServer } = require('apollo-server');
 const typeDefs = require('./typedef');
 
 const dataFolder = 'data/';
-const data = { shows: []}
+const data = { shows: []};
 
 fs.readdir(dataFolder, (err, files) => {
     files.forEach(file => {
@@ -18,13 +18,6 @@ const resolvers = {
         },
         shows: () => data.shows,
     },
-    Mutation: {
-        createComment(obj, args, context, info) {
-            let show = findShow(args.showId);
-            show.comments ? show.comments.push(args.comment) : show.comments = [args.comment];
-            return show;
-        }
-    }
 };
 
 function findShow(id) {
