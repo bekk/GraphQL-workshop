@@ -3,7 +3,7 @@ const { ApolloServer } = require('apollo-server');
 const typeDefs = require('./typedef');
 
 const dataFolder = 'data/';
-const data = { shows: []}
+const data = { shows: []};
 
 fs.readdir(dataFolder, (err, files) => {
     files.forEach(file => {
