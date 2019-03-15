@@ -13,31 +13,3 @@ export const GET_SHOWS = gql`{
         },
     }
 }`;
-
-export const GET_SHOW = gql`
-    query GetShow($idNumber: Int!) {
-        show(id: $idNumber) {
-            id,
-            name,
-            summary,
-            type,
-            genres,
-            status,
-            premiered,
-            officialSite,
-            comments,
-            image {
-                medium
-            },
-            episodes {
-                name,
-                summary,
-                season,
-                airdate,
-                image {
-                    medium
-                }
-            }
-        }
-    }
-`;
