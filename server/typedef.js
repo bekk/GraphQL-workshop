@@ -6,6 +6,11 @@ const typeDefs = gql`
         shows: [Show]
     }
 
+    type Show {
+        id: Int
+        name: String
+    }
+
      type Image {
         medium: String
         original: String
