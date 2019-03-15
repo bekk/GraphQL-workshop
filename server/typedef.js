@@ -8,10 +8,19 @@ const typeDefs = gql`
 
     type Show {
         id: Int
+        url: String
         name: String
+        type: String
+        language: String
+        genres: [String]
+        status: String
+        premiered: String
+        officialSite: String
+        image: Image
+        summary: String
     }
 
-     type Image {
+    type Image {
         medium: String
         original: String
     }
