@@ -20,6 +20,8 @@ class Show extends React.Component {
                         return <div>Feil!</div>;
                     }
 
+                    const distinctSeasons = [...new Set(data.show.episodes.map(episode => episode.season))];
+
                     return (
                         <>
                             <div key={data.show.id} className="show">
@@ -46,6 +48,13 @@ class Show extends React.Component {
                                             </span>
                                         </div>
                                         <div className="summary">{Parser(data.show.summary)}</div>
+                                        <div className="seasons">
+                                            {distinctSeasons.map(season => {
+                                                return (
+                                                    <span key={season}>Season {season}</span>
+                                                )
+                                            })}
+                                        </div>
                                     </div>
                                 </div>
                             </div>
