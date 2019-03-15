@@ -41,27 +41,3 @@ export const GET_SHOW = gql`
         }
     }
 `;
-
-export const CREATE_COMMENT = gql`
-    mutation CreateComment($showId: Int!, $comment: String!) {
-        createComment(showId: $showId, comment: $comment) {
-            id, name, comments
-        }
-    }
-`;
-
-
-export const GET_EPISODES = gql`
-    query GetEpisodes($season: Int!) {
-        show(season: $season) {
-            id,
-            name,
-            summary,
-            season,
-            airdate,
-            image {
-                medium
-            }
-        }
-    }
-`;
