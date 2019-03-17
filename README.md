@@ -150,8 +150,6 @@ Gjør deretter endringer i show.jsx for å vise sesongene.
 
 *Oppgave 8:* Utvide typedef og gi hver tv-serie mulighet til å ha en liste med kommentarer.
 
-Gjør nødvendige endringer i show.jsx for å vise kommentarene.
-
 ***
 
 *Oppgave 9:* Utvide typedef med en metode for å legge en kommentar til en tvserie.
@@ -225,4 +223,6 @@ Her står du fritt til å lage eventuelle filtreringer på sesong og/eller årst
 - http://apis.guru/graphql-apis/
 - https://www.howtographql.com/
 - https://www.graph.cool/
+
+
 
