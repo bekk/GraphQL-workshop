@@ -23,7 +23,6 @@ const typeDefs = gql`
         image: Image
         summary: String
         episodes: [Episode]
-        episode(id: Int) : Episode
         comments: [String]
     }
 
