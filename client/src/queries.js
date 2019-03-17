@@ -25,18 +25,8 @@ export const GET_SHOW = gql`
             status,
             premiered,
             officialSite,
-            comments,
             image {
                 medium
-            },
-            episodes {
-                name,
-                summary,
-                season,
-                airdate,
-                image {
-                    medium
-                }
             }
         }
     }
