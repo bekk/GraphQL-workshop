@@ -18,24 +18,13 @@ const typeDefs = gql`
         officialSite: String
         image: Image
         summary: String
-        episodes: [Episode]
     }
 
      type Image {
         medium: String
         original: String
     }
-
-    type Episode {
-        id: Int
-        url: String
-        name: String
-        season: Int
-        airdate: String
-        number: Int
-        image: Image
-        summary: String
-    }
+    
 `;
 
 
