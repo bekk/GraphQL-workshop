@@ -6,10 +6,6 @@ const typeDefs = gql`
         shows: [Show]
     }
 
-    type Mutation {
-        createComment(showId: Int ,comment: String): Show
-    }
-
     type Show {
         id: Int
         url: String
