@@ -5,7 +5,7 @@ const typeDefs = gql`
         show(id: Int): Show
         shows: [Show]
     }
-
+    
     type Show {
         id: Int
         url: String
@@ -19,7 +19,6 @@ const typeDefs = gql`
         image: Image
         summary: String
         episodes: [Episode]
-        comments: [String]
     }
 
      type Image {
