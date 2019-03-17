@@ -49,19 +49,3 @@ export const CREATE_COMMENT = gql`
         }
     }
 `;
-
-
-export const GET_EPISODES = gql`
-    query GetEpisodes($season: Int!) {
-        show(season: $season) {
-            id,
-            name,
-            summary,
-            season,
-            airdate,
-            image {
-                medium
-            }
-        }
-    }
-`;
