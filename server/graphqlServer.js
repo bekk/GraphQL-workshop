@@ -13,16 +13,9 @@ fs.readdir(dataFolder, (err, files) => {
 
 const resolvers = {
     Query: {
-        show(obj, args, context, info) {
-            return findShow(args.id)
-        },
         shows: () => data.shows,
     },
 };
-
-function findShow(id) {
-    return data.shows.find(show => show.id === id);
-}
 
 const server = new ApolloServer({
     typeDefs,
