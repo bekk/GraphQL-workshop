@@ -71,7 +71,7 @@ const ShowList = () => {
 
                 return data.shows.map((
                     {
-                        id, name, officialSite
+                        id, name
                     }) => (
                     <tr key={id}>
                         <td>{name}</td>
