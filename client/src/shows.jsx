@@ -7,23 +7,6 @@ import './shows.css';
 
 class Shows extends React.Component {
 
-    handleClickLine = (e) => {
-        this.handleClickFull();
-        const full = e.target.parentElement.querySelector('.full');
-        if (full) {
-            full.classList.add('view');
-            full.style.top = e.target.getBoundingClientRect().top + 'px';
-            full.style.left = e.target.getBoundingClientRect().left + 'px';
-        }
-    };
-
-    handleClickFull = () => {
-        const expanded = document.querySelectorAll('img.full');
-        expanded.forEach(img => {
-            img.classList.remove('view');
-        });
-    };
-
     handleClickRow = (e, id) => {
         if (!e.target.classList.contains('noclick') && !e.target.parentElement.classList.contains('noclick')) {
             this.props.history.push('/show/' + id);
@@ -45,11 +28,7 @@ class Shows extends React.Component {
                         </tr>
                     </thead>
                     <tbody>
-                        <ShowList
-                            handleClickRow={this.handleClickRow}
-                            handleClickLine={this.handleClickLine}
-                            handleClickFull={this.handleClickFull}
-                        />
+                        <ShowList handleClickRow={this.handleClickRow} />
                     </tbody>
                 </table>
             </>
@@ -59,7 +38,7 @@ class Shows extends React.Component {
 
 export default withRouter(Shows);
 
-const ShowList = ({handleClickRow, handleClickLine, handleClickFull}) => {
+const ShowList = ({handleClickRow}) => {
     return (
         <Query query={GET_SHOWS}>
             {({ loading, error, data }) => {
@@ -85,8 +64,7 @@ const ShowList = ({handleClickRow, handleClickLine, handleClickFull}) => {
                         <td>{premiered}</td>
                         <td className="noclick notel"><a href={officialSite} target="_blank" rel="noopener noreferrer">{officialSite}</a></td>
                         <td className="noclick notel bilde">
-                            <img src={image.medium} alt="" className="line" onClick={handleClickLine}/>
-                            <img src={image.medium} alt="" className="full" onClick={handleClickFull}/>
+                            <img src={image.medium} alt="" className="line"/>
                         </td>
                     </tr>
                 ));
