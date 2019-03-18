@@ -58,6 +58,8 @@ Her står du selvfølgelig også fritt til å ta med flere felter du tror kan v�
 
 Sjekk i GraphiQL at du kan få hentet ut de nye feltene.
 
+Dersom du prøver å skrive en spørring med et feltnavn fra json-filene som ikke eksisterer (eksempelvis rating) vil du se at feilmeldingene som GraphiQL gir er ganske gode.
+
 ***
 
 ##### Når vi først er i gang med utvidelser i typedef kan vi også ta med forsidebilde på tvseriene
@@ -108,9 +110,23 @@ Sjekk i graphiQL at den nye resolveren din fungerer som planlagt.
 
 ##### Nå som vi kan hente enkelt-serie kan vi igjen utvide vår webapp til å vise enkelt-tvserie
 
-*Oppgave 5:* Gjør nødvendige endringer i show.jsx slik at det kan hentes informasjon om tvserien.
+*Oppgave 5:* Gjør nødvendige endringer i show.jsx slik at det kan hentes informasjon om tvserien. Du må også legge til en ny query i queries.js for å kunne hente en enkel tv-serie.
 
 Her passer det for eksempel fint å bruke summary og det største bildeformatet. Legg lenke i shows.jsx til show.jsx
+
+```
+Tips:
+- i queries.js kan du definerer at spørringen tar en/flere parameter på følgende måte:
+    gql`
+        query myQuery(myParameter: Int!) {
+            myDataType(id: $myParameter) {
+                id,
+                name
+            }
+        }
+    `;
+- i shows.jsx kan det være at du må gjøre om innkommende paramter til en int (eksempelvis vha parseInt(value))
+``` 
 
 ***
 
