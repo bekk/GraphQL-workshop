@@ -7,9 +7,7 @@
 
 `cd server`
 
-`npm install` / `yarn`
-
-`node graphqlServer.js `
+`npm install && npm start` / `yarn && yarn start`
 
 Vipps, du har en server kjørende på [localhost:4000](http://localhost:4000/)
 
