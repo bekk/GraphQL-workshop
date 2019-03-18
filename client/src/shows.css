@@ -4,24 +4,8 @@
 	box-shadow: 0 0 8px rgba(0,0,0,0.7);
 }
 
-.shows tr img {
-	cursor: pointer;
-}
-
 .shows tr img.line {
 	height: 36px;
-}
-
-.shows tr img.full {
-	position: absolute;
-	transition: opacity 0.5s ease-in;
-	opacity: 0;
-	height: 0;
-}
-
-.shows tr img.full.view {
-	opacity: 1;
-	height: auto;
 }
 
 .shows tr:nth-child(even) {
