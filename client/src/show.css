@@ -43,6 +43,7 @@
 
 .show .content img {
     margin: 2px 1.4rem 1rem 0;
+    border: 1px solid #666;
 }
 
 .show .summary {
