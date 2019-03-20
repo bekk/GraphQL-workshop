@@ -118,7 +118,7 @@ Her passer det for eksempel fint å bruke summary og det største bildeformatet.
 Tips:
 - i queries.js kan du definerer at spørringen tar en/flere parameter på følgende måte:
     gql`
-        query myQuery(myParameter: Int!) {
+        query myQuery($myParameter: Int!) {
             myDataType(id: $myParameter) {
                 id,
                 name
